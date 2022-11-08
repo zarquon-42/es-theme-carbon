@@ -224,4 +224,5 @@ originally based on: "simple" by nils bonenberger
     <include name="yes" displayName="${yes}">./subsets/storyboards.xml</include>
     <include name="no" displayName="${no}"/>
   </subset>
+  <include>./${system.theme}.xml</include>
 </theme>
