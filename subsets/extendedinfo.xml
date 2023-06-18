@@ -13,16 +13,91 @@ Favorites : {binding:favorites}
 Games played : {binding:gamesPlayed}
 Most played : {binding:mostPlayed}
 Last played : {binding:lastPlayedDate}</text>
-      <text lang="fr">Nombre de jeux : {binding:total}
-Favoris : {binding:favorites}
-Jeux joués : {binding:gamesPlayed}
-Le plus joué : {binding:mostPlayed}
-Dernière partie : {binding:lastPlayedDate}</text>
+      <text lang="ar">ألعاب : {binding:total}
+المفضلة : {binding:favorites}
+تم لعب المباريات : {binding:gamesPlayed}
+الأكثر لعبا : {binding:mostPlayed}
+اخر لعبه : {binding:lastPlayedDate}</text>
+      <text lang="ca">Nombre de jocs : {binding:total}
+Preferits : {binding:favorites}
+Jocs jugats : {binding:gamesPlayed}
+Més jugats : {binding:mostPlayed}
+Últim moviment : {binding:lastPlayedDate}</text>
+      <text lang="de">Anzahl von Spielen : {binding:total}
+Favoriten : {binding:favorites}
+Spiele gespielt : {binding:gamesPlayed}
+Meist gespielt : {binding:mostPlayed}
+Letzter Zug : {binding:lastPlayedDate}</text>
+      <text lang="en">Games : {binding:total}
+Favorites : {binding:favorites}
+Games played : {binding:gamesPlayed}
+Most played : {binding:mostPlayed}
+Last played : {binding:lastPlayedDate}</text>
       <text lang="es">Número de juegos : {binding:total}
 Favoritos : {binding:favorites}
 Jugados : {binding:gamesPlayed}
 El más jugado : {binding:mostPlayed}
 Última partida : {binding:lastPlayedDate}</text>
+      <text lang="fr">Nombre de jeux : {binding:total}
+Favoris : {binding:favorites}
+Jeux joués : {binding:gamesPlayed}
+Le plus joué : {binding:mostPlayed}
+Dernière partie : {binding:lastPlayedDate}</text>
+      <text lang="gr">Αριθμός παιχνιδιών : {binding:total}
+Αγαπημένα : {binding:favorites}
+Παιχνίδια που παίχτηκαν : {binding:gamesPlayed}
+Περισσότερα παίχτηκαν : {binding:mostPlayed}
+Τελευταία κίνηση : {binding:lastPlayedDate}</text>
+      <text lang="it">Numero di giochi : {binding:total}
+Preferiti : {binding:favorites}
+Giochi giocati : {binding:gamesPlayed}
+Più giocato : {binding:mostPlayed}
+Ultima mossa : {binding:lastPlayedDate}</text>
+      <text lang="jp">ゲーム数 : {binding:total}
+お気に入り : {binding:favorites}
+プレイしたゲーム : {binding:gamesPlayed}
+最もプレイされた : {binding:mostPlayed}
+最後の動き : {binding:lastPlayedDate}</text>
+      <text lang="ko">게임 수 : {binding:total}
+즐겨찾기 : {binding:favorites}
+플레이한 게임 : {binding:gamesPlayed}
+가장 많이 플레이한 것 : {binding:mostPlayed}
+마지막 플레이 {binding:lastPlayedDate}</text>
+      <text lang="nl">Aantal spellen : {binding:total}
+Favorieten : {binding:favorites}
+Spellen gespeeld : {binding:gamesPlayed}
+Meest gespeeld : {binding:mostPlayed}
+Laatste zet : {binding:lastPlayedDate}</text>
+      <text lang="pl">Liczba gier : {binding:total}
+Ulubione : {binding:favorites}
+Rozegrane gry : {binding:gamesPlayed}
+Najczęściej grane : {binding:mostPlayed}
+Ostatni ruch : {binding:lastPlayedDate}</text>
+      <text lang="pt">Número de jogos : {binding:total}
+Favoritos : {binding:favorites}
+Jogos jogados : {binding:gamesPlayed}
+Mais jogados : {binding:mostPlayed}
+Recém jogado : {binding:lastPlayedDate}</text>
+      <text region="ptbr">Número de jogos : {binding:total}
+Favoritos : {binding:favorites}
+Jogos Jogados : {binding:gamesPlayed}
+Mais jogados : {binding:mostPlayed}
+Última jogada : {binding:lastPlayedDate}</text>
+      <text lang="ru">Количество игр : {binding:total}
+Избранное : {binding:favorites}
+Игр сыграно : {binding:gamesPlayed}
+Больше играл : {binding:mostPlayed}
+Последний ход : {binding:lastPlayedDate}</text>
+      <text lang="uk">Кількість ігор : {binding:total}
+Вибране : {binding:favorites}
+Зіграні ігри : {binding:gamesPlayed}
+Більше грав : {binding:mostPlayed}
+Останній хід : {binding:lastPlayedDate}</text>
+      <text lang="zh">游戏数量 : {binding:total}
+最爱的游戏 : {binding:favorites}
+玩过的游戏 : {binding:gamesPlayed}
+常玩的游戏 : {binding:mostPlayed}
+最后游玩 : {binding:lastPlayedDate}</text>
       <alignment>center</alignment>
       <verticalAlignment>center</verticalAlignment>
       <fontPath>./art/fonts/Cabin-Regular.ttf</fontPath>

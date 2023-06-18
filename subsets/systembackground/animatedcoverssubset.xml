@@ -4,12 +4,63 @@
   <variables>
     <animatedCovers>Random boxes</animatedCovers>
   </variables>
-  <variables lang="fr">
-    <animatedCovers>Boites aléatoires</animatedCovers>
+  <variables lang="ar">
+    <animatedCovers>مربعات عشوائية</animatedCovers>
+  </variables>
+  <variables lang="ca">
+    <animatedCovers>Caixa aleatori</animatedCovers>
+  </variables>
+  <variables lang="de">
+    <animatedCovers>Zufällige Spielbox</animatedCovers>
+  </variables>
+  <variables lang="en">
+    <animatedCovers>Random boxes</animatedCovers>
+  </variables>
+  <variables lang="engb">
+    <animatedCovers>Random boxes</animatedCovers>
   </variables>
   <variables lang="es">
     <animatedCovers>Cajas aleatorias</animatedCovers>
   </variables>
+  <variables lang="fr">
+    <animatedCovers>Boîtes aléatoires</animatedCovers>
+  </variables>
+  <variables lang="gr">
+    <animatedCovers>Τυχαία κουτιά</animatedCovers>
+  </variables>
+  <variables lang="it">
+    <animatedCovers>Cajas aleatorias</animatedCovers>
+  </variables>
+  <variables lang="jp">
+    <animatedCovers>ランダムボックス</animatedCovers>
+  </variables>
+  <variables lang="ko">
+    <animatedCovers>랜덤 박스</animatedCovers>
+  </variables>
+  <variables lang="nl">
+    <animatedCovers>Willekeurige dozen</animatedCovers>
+  </variables>
+  <variables lang="pl">
+    <animatedCovers>Losowe pudełka</animatedCovers>
+  </variables>
+    <variables lang="pt">
+    <animatedCovers>Caixas aleatórias</animatedCovers>
+  </variables>
+  <variables region="ptbr">
+    <animatedCovers>Caixas aleatórias</animatedCovers>
+  </variables>
+  <variables lang="ru">
+    <animatedCovers>Случайные коробки</animatedCovers>
+  </variables>
+  <variables lang="uk">
+    <animatedCovers>Випадкові ящики</animatedCovers>
+  </variables>
+  <variables lang="zh">
+    <animatedCovers>随机盒子</animatedCovers>
+  </variables>
+  <!-- <variables lang="us">
+    <animatedCovers>Random boxes</animatedCovers>
+  </variables> -->
   <subset name="animatedCovers" displayName="${animatedCovers}" tinyScreen="false" ifSubset="systemview:horizontal|darkened|transparent|legacy">
     <include name="no" displayName="${no}"/>
     <include name="yes" displayName="${yes}">./animatedcovers.xml</include>

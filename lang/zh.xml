@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+ <!-- Chinese -->
+ <variables lang="zh">
+  <dateFormat>%m/%d/%Y</dateFormat>
+    <!-- Region -->
+    <subset.region>地区</subset.region>
+    <!-- Colorsets  -->
+    <subset.colorset>配色方案</subset.colorset>
+    <iconsViewName>图标</iconsViewName>
+    <blue>蓝色</blue>
+    <red>红色</red>
+    <green>绿色</green>
+    <cyan>青色</cyan>
+    <yellow>黄色</yellow>
+    <violet>紫色</violet>
+    <orange>橙色</orange>
+    <gray>灰色</gray>
+    <!-- Common views  -->
+    <tilesViewName>缩略图</tilesViewName>
+    <basicGridName>网格</basicGridName>
+    <carouselViewName>旋转</carouselViewName>
+    <!-- Subset option for System extended informations -->
+    <systemViewExInfos>改善系统信息</systemViewExInfos>
+    <yes>是</yes>
+    <no>否</no>
+    <!-- Subset options for screen -->
+    <systemViewName>系统视图</systemViewName>
+    <systemview.darkened>阴影</systemview.darkened>
+    <systemview.horizontal>横向</systemview.horizontal>
+    <systemview.legacy>经典</systemview.legacy>
+    <systemview.transparent>透明</systemview.transparent>
+    <systemview.simple>简易</systemview.simple>
+    <systemview.vertical>垂直</systemview.vertical>
+    <systemview.wheel>旋转</systemview.wheel>
+    <!-- Subset option for System view background -->
+    <systemBackgroundName>背景</systemBackgroundName>
+    <systembackground.miniconsoles>迷你视频</systembackground.miniconsoles>
+    <animatedBackground>背景动画</animatedBackground>
+    <!-- change default for small screens -->
+    <systembackground.consoles>视频游戏</systembackground.consoles>
+    <systembackground.miniconsoles>迷你视频游戏</systembackground.miniconsoles>
+    <systembackground.carboncontrollers>Carbon选项</systembackground.carboncontrollers>
+    <systembackground.carbonlegacy>经典</systembackground.carbonlegacy>
+    <systembackground.simple>简易</systembackground.simple>
+    <systembackground.randomvideo>随机视频</systembackground.randomvideo>
+    <systembackground.randomfanart>随机扇形图</systembackground.randomfanart>
+    <systembackground.randomimage>随机图像</systembackground.randomimage>
+    <systembackground.randombox>随机游戏盒</systembackground.randombox>
+    <systembackground.minirandomimage>随机迷你游戏图像</systembackground.minirandomimage>
+    <systembackground.minirandombox>随机迷你游戏盒</systembackground.minirandombox>
+    <systembackground.minirandomvideo>随机迷你视频</systembackground.minirandomvideo>
+    <!-- Fix for controller image size -->
+    <systemview.simple>简易</systemview.simple>
+    <systemview.vertical>垂直</systemview.vertical>
+    <systemview.wheel>旋转</systemview.wheel>
+    <!-- Fix for Legacy option in systemview subset : systemInfo colors have to be restored after applying systembackground subset -->
+    <systemview.legacy>经典</systemview.legacy>
+    <!-- Subset options for help -->
+    <helpSubsetName>帮助图标</helpSubsetName>
+    <helpbuttons>帮助按钮</helpbuttons>
+    <xboxbuttons>Xbox按钮</xboxbuttons>
+    <psxbuttons>PlayStation按钮</psxbuttons>
+    <colored>颜色</colored>
+    <!-- Subset options for screen -->
+    <subset.shader>过滤器</subset.shader>
+    <none>无</none>
+    <scanlines>扫描线</scanlines>
+    <crt>电子管电视</crt>
+    <!-- add game info bar -->
+    <gameBar>游戏信息栏</gameBar>
+    <!-- Layout for small screens -->
+    <optimizesmallscreensSubsetName>针对小屏幕进行优化</optimizesmallscreensSubsetName>
+    <!-- Subset options for grid views -->
+    <videoboxesSubsetName>在方框模式下显示视频</videoboxesSubsetName>
+    <zoomboxesSubsetName>缩放框</zoomboxesSubsetName>
+    <orientationSubsetName>方向</orientationSubsetName>
+    <vertical>垂直</vertical>
+    <horizontal>横向</horizontal>
+    <hideselectionSubsetName>隐藏当前选择</hideselectionSubsetName>
+    <previewBarSubsetName>预览窗格</previewBarSubsetName>
+    <animatedInfobar>信息栏动画</animatedInfobar>
+    <!-- Subset options for Tiles view -->
+    <glowSubsetName>带光晕的选择</glowSubsetName>
+    <roundBorderSubsetName>圆形边缘</roundBorderSubsetName>
+    <blinkBorderSubsetName>闪烁边缘</blinkBorderSubsetName>
+    <videosSubsetName>视频</videosSubsetName>
+    <logosSubsetNamegamecarouseltype>缩略图</logosSubsetNamegamecarouseltype>
+    <gamecarouseltype>旋转图片来源</gamecarouseltype>
+    <marquee>选框</marquee>
+    <image>图像</image>
+    <text>文本</text>
+    <thumbnail>缩略图</thumbnail>
+     <animationsSubsetName>过渡动画</animationsSubsetName>
+  </variables>  
+</theme>

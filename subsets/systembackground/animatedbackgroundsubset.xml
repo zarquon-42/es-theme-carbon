@@ -4,9 +4,64 @@
   <variables>
     <animatedBackground>Animated background</animatedBackground>
   </variables>
-  <variables lang="fr">
-    <animatedBackground>Animation du fond</animatedBackground>
+  <variables lang="ar">
+    <animatedBackground>خلفية متحركة</animatedBackground>
   </variables>
+  <variables lang="ca">
+    <animatedBackground>Animacions de fons</animatedBackground>
+  </variables>
+  <variables lang="de">
+    <animatedBackground>Hintergrundanimationen</animatedBackground>
+  </variables>
+  <variables lang="en">
+    <animatedBackground>Animated background</animatedBackground>
+  </variables>
+  <variables lang="engb">
+    <animatedBackground>Animated background</animatedBackground>
+  </variables>
+  <variables lang="es">
+    <animatedBackground>Animaciones de plano de fondo</animatedBackground>
+  </variables>
+  <variables lang="fr">
+    <animatedBackground>Animations de plan de fond</animatedBackground>
+  </variables>
+  <variables lang="gr">
+    <animatedBackground>Κινούμενα σχέδια στο παρασκήνιο</animatedBackground>
+  </variables>
+  <variables lang="it">
+    <animatedBackground>Animazioni di sfondo</animatedBackground>
+  </variables>
+  <variables lang="jp">
+    <animatedBackground>背景アニメーション</animatedBackground>
+  </variables>
+  <variables lang="ko">
+    <animatedBackground>배경 애니메이션</animatedBackground>
+  </variables>
+  <variables lang="nl">
+    <animatedBackground>Achtergrond animaties</animatedBackground>
+  </variables>
+  <variables lang="pl">
+    <animatedBackground>Animacje w tle</animatedBackground>
+  </variables>
+  <variables lang="pt">
+    <animatedBackground>Fundo animado</animatedBackground>
+  </variables>
+  <variables region="ptbr">
+    <animatedBackground>Animação de fundo</animatedBackground>
+  </variables>
+  <variables lang="ru">
+    <animatedBackground>Фоновые анимации</animatedBackground>
+  </variables>
+  <variables lang="uk">
+    <animatedBackground>Анімований фон</animatedBackground>
+  </variables>
+  <!--<variables lang="us">
+    <animatedBackground>Animated background</animatedBackground>
+  </variables> -->
+  <variables lang="zh">
+    <animatedBackground>背景动画</animatedBackground>
+  </variables>
+  
   <subset tinyScreen="false" name="animatedBackground" displayName="${animatedBackground}">
     <!-- default to yes for fast platforms only -->
     <include ifArch="windows,x86,x86_64,odroidc4,odroidxu4" name="yes" displayName="${yes}">./animatedbackground.xml</include>
