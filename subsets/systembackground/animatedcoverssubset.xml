@@ -10,9 +10,9 @@
   <variables lang="ca">
     <animatedCovers>Caixa aleatori</animatedCovers>
   </variables>
-  <variables lang="de">
-    <animatedCovers>Zufällige Spielbox</animatedCovers>
-  </variables>
+    <variables lang="de">
+      <animatedCovers>Zufällige Spielbox</animatedCovers>
+    </variables>
   <variables lang="en">
     <animatedCovers>Random boxes</animatedCovers>
   </variables>
@@ -25,7 +25,7 @@
   <variables lang="fr">
     <animatedCovers>Boîtes aléatoires</animatedCovers>
   </variables>
-  <variables lang="gr">
+  <variables lang="el">
     <animatedCovers>Τυχαία κουτιά</animatedCovers>
   </variables>
   <variables lang="it">

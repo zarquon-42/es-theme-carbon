@@ -43,7 +43,7 @@ Favoris : {binding:favorites}
 Jeux joués : {binding:gamesPlayed}
 Le plus joué : {binding:mostPlayed}
 Dernière partie : {binding:lastPlayedDate}</text>
-      <text lang="gr">Αριθμός παιχνιδιών : {binding:total}
+      <text lang="el">Αριθμός παιχνιδιών : {binding:total}
 Αγαπημένα : {binding:favorites}
 Παιχνίδια που παίχτηκαν : {binding:gamesPlayed}
 Περισσότερα παίχτηκαν : {binding:mostPlayed}
@@ -111,12 +111,44 @@ Mais jogados : {binding:mostPlayed}
     </text>
     <text name="systemInfoEx" extra="true" if="{system.name} == 'collections'">
       <text>Collections : {binding:subSystems}</text>
+      <text lang="ar">عدد المجموعات : {binding:subSystems}</text>
+      <text lang="ca">Nombre de col·leccions : {binding:subSystems}</text>
+      <text lang="de">Anzahl der Sammlungen : {binding:subSystems}</text>
+      <text lang="el">Αριθμός συλλογών : {binding:subSystems}</text>
+      <text lang="en">Number of collections : {binding:subSystems}</text>
+      <text lang="engb">Number of collections : {binding:subSystems}</text>
+      <text lang="es">Número de colecciones : {binding:subSystems}</text>
       <text lang="fr">Nombre de collections : {binding:subSystems}</text>
+      <text lang="it">Numero di raccolte : {binding:subSystems}</text>
+      <text lang="jp">コレクション数 : {binding:subSystems}</text>
+      <text lang="ko">컬렉션 개수 : {binding:subSystems}</text>
+      <text lang="nl">Aantal verzamelingen : {binding:subSystems}</text>
+      <text lang="pl">Liczba kolekcji : {binding:subSystems}</text>
+      <text lang="ptbr">Número de coleções : {binding:subSystems}</text>
+      <text lang="ru">Количество коллекций : {binding:subSystems}</text>
+      <text lang="uk">Кількість колекцій : {binding:subSystems}</text>
+      <text lang="zh">收集的数量 : {binding:subSystems}</text>
     </text>
     <text name="systemInfoEx" extra="true" if="{system.name} == 'library' || {system.name} == 'screenshots'">
       <text>Items : {binding:total}</text>
-      <text lang="fr">Nombre d'élements : {binding:total}</text>
+      <text lang="ar">عدد العناصر : {binding:total}</text>
+      <text lang="ca">Nombre d'elements : {binding:total}</text>
+      <text lang="de">Anzahl der Gegenstände : {binding:total}</text>
+      <text lang="el">Αριθµός στοιχείων : {binding:total}</text>
+      <text lang="en">Number of items : {binding:total}</text>
+      <text lang="engb">Number of items : {binding:total}</text>
       <text lang="es">Número de elementos: {binding:total}</text>
+      <text lang="fr">Nombre d'élements : {binding:total}</text>
+      <text lang="it">Numero di elementi : {binding:total}</text>
+      <text lang="jp">要素数 : {binding:total}</text>
+      <text lang="ko">요소 수 : {binding:total}</text>
+      <text lang="nl">Aantal elementen : {binding:total}</text>
+      <text lang="pl">Liczba elementów : {binding:total}</text>
+      <text lang="pt">Número de coleções : {binding:total}</text>
+      <text lang="ptbr">Número de elementos : {binding:total}</text>
+      <text lang="ru">Количество элементов : {binding:total}</text>
+      <text lang="uk">Кількість елементів : {binding:total}</text>
+      <text lang="zh">元素的数量 : {binding:total}</text>      
     </text>
   </view>
 </theme>
