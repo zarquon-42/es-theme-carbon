@@ -16,7 +16,7 @@
   <variables lang="en">
     <animatedCovers>Random boxes</animatedCovers>
   </variables>
-  <variables lang="engb">
+  <variables lang="en_GB">
     <animatedCovers>Random boxes</animatedCovers>
   </variables>
   <variables lang="es">
@@ -46,7 +46,7 @@
     <variables lang="pt">
     <animatedCovers>Caixas aleatórias</animatedCovers>
   </variables>
-  <variables region="ptbr">
+  <variables region="pt_BR">
     <animatedCovers>Caixas aleatórias</animatedCovers>
   </variables>
   <variables lang="ru">

@@ -2,7 +2,7 @@
 <theme>
   <formatVersion>7</formatVersion>
  <!-- English United Kingdom -->
- <variables lang="engb">
+ <variables lang="en_GB">
   <dateFormat>%m/%d/%Y</dateFormat>
     <!-- Region -->
     <subset.region>Region</subset.region>

@@ -3,7 +3,7 @@
   <formatVersion>7</formatVersion>
   <!-- Brazilian Portuguese -->
   <variables lang="ko">
-  <dateFormat>%d/%m/%Y</dateFormat>
+  <dateFormat>%Y년 %m월 %d일</dateFormat>
   <!-- Region -->
   <subset.region>지역</subset.region>
   <!-- Colorsets  -->

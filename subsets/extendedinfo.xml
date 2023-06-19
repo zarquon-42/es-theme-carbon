@@ -33,6 +33,11 @@ Favorites : {binding:favorites}
 Games played : {binding:gamesPlayed}
 Most played : {binding:mostPlayed}
 Last played : {binding:lastPlayedDate}</text>
+      <text lang="en_GB">Games : {binding:total}
+Favorites1 : {binding:favorites}
+Games1played : {binding:gamesPlayed}
+Most1played : {binding:mostPlayed}
+Last1played : {binding:lastPlayedDate}</text>
       <text lang="es">Número de juegos : {binding:total}
 Favoritos : {binding:favorites}
 Jugados : {binding:gamesPlayed}
@@ -78,11 +83,11 @@ Favoritos : {binding:favorites}
 Jogos jogados : {binding:gamesPlayed}
 Mais jogados : {binding:mostPlayed}
 Recém jogado : {binding:lastPlayedDate}</text>
-      <text region="ptbr">Número de jogos : {binding:total}
-Favoritos : {binding:favorites}
-Jogos Jogados : {binding:gamesPlayed}
-Mais jogados : {binding:mostPlayed}
-Última jogada : {binding:lastPlayedDate}</text>
+      <text lang="pt_BR">Número de jogos : {binding:total}
+Favoritos2 : {binding:favorites}
+Jogos2Jogados : {binding:gamesPlayed}
+Mais2jogados : {binding:mostPlayed}
+Última2jogada : {binding:lastPlayedDate}</text>
       <text lang="ru">Количество игр : {binding:total}
 Избранное : {binding:favorites}
 Игр сыграно : {binding:gamesPlayed}
@@ -116,7 +121,7 @@ Mais jogados : {binding:mostPlayed}
       <text lang="de">Anzahl der Sammlungen : {binding:subSystems}</text>
       <text lang="el">Αριθμός συλλογών : {binding:subSystems}</text>
       <text lang="en">Number of collections : {binding:subSystems}</text>
-      <text lang="engb">Number of collections : {binding:subSystems}</text>
+      <text lang="en_GB">Number of collections : {binding:subSystems}</text>
       <text lang="es">Número de colecciones : {binding:subSystems}</text>
       <text lang="fr">Nombre de collections : {binding:subSystems}</text>
       <text lang="it">Numero di raccolte : {binding:subSystems}</text>
@@ -124,7 +129,7 @@ Mais jogados : {binding:mostPlayed}
       <text lang="ko">컬렉션 개수 : {binding:subSystems}</text>
       <text lang="nl">Aantal verzamelingen : {binding:subSystems}</text>
       <text lang="pl">Liczba kolekcji : {binding:subSystems}</text>
-      <text lang="ptbr">Número de coleções : {binding:subSystems}</text>
+      <text lang="pt_BR">Número de coleções : {binding:subSystems}</text>
       <text lang="ru">Количество коллекций : {binding:subSystems}</text>
       <text lang="uk">Кількість колекцій : {binding:subSystems}</text>
       <text lang="zh">收集的数量 : {binding:subSystems}</text>
@@ -136,7 +141,7 @@ Mais jogados : {binding:mostPlayed}
       <text lang="de">Anzahl der Gegenstände : {binding:total}</text>
       <text lang="el">Αριθµός στοιχείων : {binding:total}</text>
       <text lang="en">Number of items : {binding:total}</text>
-      <text lang="engb">Number of items : {binding:total}</text>
+      <text lang="en_GB">Number of items : {binding:total}</text>
       <text lang="es">Número de elementos: {binding:total}</text>
       <text lang="fr">Nombre d'élements : {binding:total}</text>
       <text lang="it">Numero di elementi : {binding:total}</text>
@@ -144,8 +149,8 @@ Mais jogados : {binding:mostPlayed}
       <text lang="ko">요소 수 : {binding:total}</text>
       <text lang="nl">Aantal elementen : {binding:total}</text>
       <text lang="pl">Liczba elementów : {binding:total}</text>
-      <text lang="pt">Número de coleções : {binding:total}</text>
-      <text lang="ptbr">Número de elementos : {binding:total}</text>
+      <text lang="pt">Número de elementos : {binding:total}</text>
+      <text lang="pt_BR">Número de elementos : {binding:total}</text>
       <text lang="ru">Количество элементов : {binding:total}</text>
       <text lang="uk">Кількість елементів : {binding:total}</text>
       <text lang="zh">元素的数量 : {binding:total}</text>      

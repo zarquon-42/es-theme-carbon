@@ -3,7 +3,7 @@
   <formatVersion>7</formatVersion>
  <!-- Polish -->
  <variables lang="pl">
-  <dateFormat>%d/%m/%Y</dateFormat>
+  <dateFormat>%d.%m.%Y</dateFormat>
     <!-- Region -->
     <subset.region>Region</subset.region>
     <!-- Zestawy kolorów -->

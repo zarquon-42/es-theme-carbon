@@ -3,7 +3,7 @@
   <formatVersion>7</formatVersion>
  <!-- Japanese -->
  <variables lang="jp">
-  <dateFormat>%d/%m/%Y</dateFormat>
+  <dateFormat>年 %Y 月 %m 日 %d</dateFormat>
     <!-- Region -->
     <subset.region>地域</subset.region>
     <!-- Colorsets  -->

@@ -2,7 +2,7 @@
 <theme>
   <formatVersion>7</formatVersion>
   <!-- Brazilian Portuguese -->
-  <variables region="ptbr">
+  <variables region="br">
   <dateFormat>%d/%m/%Y</dateFormat>
   <!-- Region -->
   <subset.region>Região</subset.region>

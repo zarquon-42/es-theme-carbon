@@ -16,7 +16,7 @@
   <variables lang="en">
     <animatedBackground>Animated background</animatedBackground>
   </variables>
-  <variables lang="engb">
+  <variables lang="en_GB">
     <animatedBackground>Animated background</animatedBackground>
   </variables>
   <variables lang="es">
@@ -46,7 +46,7 @@
   <variables lang="pt">
     <animatedBackground>Fundo animado</animatedBackground>
   </variables>
-  <variables region="ptbr">
+  <variables lang="pt_BR">
     <animatedBackground>Animação de fundo</animatedBackground>
   </variables>
   <variables lang="ru">

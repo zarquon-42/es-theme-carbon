@@ -3,7 +3,7 @@
   <formatVersion>7</formatVersion>
  <!-- Dutch -->
  <variables lang="nl">
-  <dateFormat>%d/%m/%Y</dateFormat>
+  <dateFormat>%d-%m-%Y</dateFormat>
     <!-- Region -->
     <subset.region>Regio</subset.region>
     <!-- Colorsets  -->
