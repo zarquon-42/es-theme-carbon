@@ -5,7 +5,7 @@ author: Fabrice CARUSO
 license: creative commons CC-BY-NC-SA
 originally based on: "Carbon" by Eric Hettervik (Rookervik)
 originally based on: "simple" by nils bonenberger
-languages and missing systems (batocera v36): by maioni
+languages and missing systems (batocera v36-v37-v38): by maioni
 -->
 <theme defaultView="Icons">
   <formatVersion>7</formatVersion>
@@ -62,14 +62,15 @@ languages and missing systems (batocera v36): by maioni
     <animatedInfobar>Animated preview bar</animatedInfobar>
   </variables>
   <include lang="ar">./lang/ar.xml</include>
+  <include region="br">./lang/pt_BR.xml</include>
   <include lang="ca">./lang/ca.xml</include>
   <include lang="de">./lang/de.xml</include>
+  <include lang="el">./lang/el.xml</include>
   <include lang="en">./lang/en.xml</include>
   <include lang="en_GB">./lang/en_GB.xml</include>
   <include lang="es">./lang/es.xml</include>
   <include lang="eu">./lang/en.xml</include>
   <include lang="fr">./lang/fr.xml</include>
-  <include lang="el">./lang/el.xml</include>
   <include lang="it">./lang/it.xml</include>
   <include lang="jp">./lang/jp.xml</include>
   <include lang="ko">./lang/ko.xml</include>

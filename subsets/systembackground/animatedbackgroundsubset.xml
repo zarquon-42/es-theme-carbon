@@ -7,11 +7,17 @@
   <variables lang="ar">
     <animatedBackground>خلفية متحركة</animatedBackground>
   </variables>
+  <variables region="br">
+    <animatedBackground>Animação de fundo</animatedBackground>
+  </variables>
   <variables lang="ca">
     <animatedBackground>Animacions de fons</animatedBackground>
   </variables>
   <variables lang="de">
     <animatedBackground>Hintergrundanimationen</animatedBackground>
+  </variables>
+  <variables lang="el">
+    <animatedBackground>Κινούμενα σχέδια στο παρασκήνιο</animatedBackground>
   </variables>
   <variables lang="en">
     <animatedBackground>Animated background</animatedBackground>
@@ -24,9 +30,6 @@
   </variables>
   <variables lang="fr">
     <animatedBackground>Animations de plan de fond</animatedBackground>
-  </variables>
-  <variables lang="el">
-    <animatedBackground>Κινούμενα σχέδια στο παρασκήνιο</animatedBackground>
   </variables>
   <variables lang="it">
     <animatedBackground>Animazioni di sfondo</animatedBackground>
@@ -41,13 +44,10 @@
     <animatedBackground>Achtergrond animaties</animatedBackground>
   </variables>
   <variables lang="pl">
-    <animatedBackground>Animacje w tle</animatedBackground>
+    <animatedBackground>Animacje tła</animatedBackground>
   </variables>
   <variables lang="pt">
     <animatedBackground>Fundo animado</animatedBackground>
-  </variables>
-  <variables lang="pt_BR">
-    <animatedBackground>Animação de fundo</animatedBackground>
   </variables>
   <variables lang="ru">
     <animatedBackground>Фоновые анимации</animatedBackground>

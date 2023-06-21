@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
- <!-- Polish -->
+ <!-- Polski -->
  <variables lang="pl">
   <dateFormat>%d.%m.%Y</dateFormat>
     <!-- Region -->
@@ -11,8 +11,8 @@
     <iconsViewName>Ikony</iconsViewName>
     <blue>Niebieski</blue>
     <red>Czerwony</red>
-    <green>zielony</green>
-    <cyan>cyjan</cyan>
+    <green>Zielony</green>
+    <cyan>Cyjan</cyan>
     <yellow>Żółty</yellow>
     <violet>Fioletowy</violet>
     <orange>Pomarańczowy</orange>
@@ -21,74 +21,74 @@
     <tilesViewName>Miniatury</tilesViewName>
     <basicGridName>Siatka</basicGridName>
     <carouselViewName>Karuzela</carouselViewName>
-    <!-- Opcja podzbioru dla rozszerzonych informacji systemowych -->
-    <systemViewExInfos>Ulepszone informacje o systemie</systemViewExInfos>
+    <!-- Opcja rozszerzonych informacji systemowych -->
+    <systemViewExInfos>Rozszerzone informacje o systemie</systemViewExInfos>
     <yes>Tak</yes>
     <no>Nie</no>
-    <!-- Podzbiór opcji dla ekranu -->
+    <!-- Opcje ekranu -->
     <systemViewName>Widok systemu</systemViewName>
-    <systemview.darkened>Zaciemnione</systemview.darkened>
-    <systemview.horizontal>Poziomo</systemview.horizontal>
+    <systemview.darkened>Przyciemniony</systemview.darkened>
+    <systemview.horizontal>Poziomy</systemview.horizontal>
     <systemview.legacy>Starsza wersja</systemview.legacy>
     <systemview.transparent>Przejrzysty</systemview.transparent>
     <systemview.simple>Prosty</systemview.simple>
-    <systemview.vertical>Pionowe</systemview.vertical>
+    <systemview.vertical>Pionowy</systemview.vertical>
     <systemview.wheel>Karuzela</systemview.wheel>
-    <!-- Opcja podzbioru dla tła widoku systemu -->
+    <!-- Opcja tła widoku systemu -->
     <systemBackgroundName>Tło</systemBackgroundName>
-    <systembackground.miniconsoles>Mini wideo </systembackground.miniconsoles>
-    <animatedBackground>Animacje w tle</animatedBackground>
+    <systembackground.miniconsoles>Mini wideo</systembackground.miniconsoles>
+    <animatedBackground>Animacje</animatedBackground>
     <!-- zmień domyślne dla małych ekranów -->
     <systembackground.consoles>Gry wideo</systembackground.consoles>
     <systembackground.miniconsoles>Mini gry wideo</systembackground.miniconsoles>
-    <systembackground.carboncontrollers>Kontrole węgla</systembackground.carboncontrollers>
+    <systembackground.carboncontrollers>Kontrolery Carbon</systembackground.carboncontrollers>
     <systembackground.carbonlegacy>Starsza wersja</systembackground.carbonlegacy>
-    <systembackground.simple>Prosty</systembackground.simple>
+    <systembackground.simple>Proste</systembackground.simple>
     <systembackground.randomvideo>Losowe wideo</systembackground.randomvideo>
     <systembackground.randomfanart>Losowy fanart</systembackground.randomfanart>
     <systembackground.randomimage>Losowy obraz</systembackground.randomimage>
-    <systembackground.randombox>Losowe pudełko z grą</systembackground.randombox>
-    <systembackground.minirandomimage>Losowy miniobraz</systembackground.minirandomimage>
-    <systembackground.minirandombox>Mini losowe pudełko z grami</systembackground.minirandombox>
-    <systembackground.minirandomvideo>Mini losowe wideo</systembackground.minirandomvideo>
-    <!-- Naprawiono rozmiar obrazu kontrolera -->
-    <systemview.simple>prosty</systemview.simple>
-    <systemview.vertical>pionowy</systemview.vertical>
-    <systemview.wheel>karuzela</systemview.wheel>
-    <!-- Naprawiono opcję Legacy w podzbiorze systemview: kolory systemInfo muszą zostać przywrócone po zastosowaniu podzbioru systembackground -->
-    <systemview.legacy>starsza wersja</systemview.legacy>
-    <!-- Podzbiór opcji pomocy -->
+    <systembackground.randombox>Losowe pudełko gry</systembackground.randombox>
+    <systembackground.minirandomimage>Losowy mini obraz gry</systembackground.minirandomimage>
+    <systembackground.minirandombox>Losowe mini pudełko gry</systembackground.minirandombox>
+    <systembackground.minirandomvideo>Losowe mini wideo</systembackground.minirandomvideo>
+    <!-- Naprawa rozmiaru obrazu kontrolera -->
+    <systemview.simple>Prosty</systemview.simple>
+    <systemview.vertical>Pionowy</systemview.vertical>
+    <systemview.wheel>Karuzela</systemview.wheel>
+    <!-- Naprawa dla Starszej wersji w opcjach Widoku systemu: kolory systemInfo muszą zostać przywrócone po zastosowaniu podzbioru systembackground -->
+    <systemview.legacy>Starsza wersja</systemview.legacy>
+    <!-- Opcje pomocy -->
     <helpSubsetName>Ikony pomocy</helpSubsetName>
-    <helpbuttons>Położenie przycisków</helpbuttons>
-    <xboxbuttons>Przyciski Xbox</xboxbuttons>
+    <helpbuttons>Przyciski pomocy</helpbuttons>
+    <xboxbuttons>Przyciski Xbox'a</xboxbuttons>
     <psxbuttons>Przyciski PlayStation</psxbuttons>
-    <colored>Kolorowy</colored>
-    <!-- Podzbiór opcji dla ekranu -->
+    <colored>Kolorowo</colored>
+    <!-- Opcje ekranu -->
     <subset.shader>Filtry</subset.shader>
     <none>Brak</none>
-    <scanlines>Skanuj linie</scanlines>
-    <crt>Telewizja tubowa</crt>
+    <scanlines>Linie skanowania</scanlines>
+    <crt>TV kineskopowy</crt>
     <!-- dodaj pasek informacji o grze -->
     <gameBar>Pasek informacji o grze</gameBar>
     <!-- Układ dla małych ekranów -->
-    <optimizesmallscreensSubsetName>Optymalizuj pod kątem małych ekranów</optimizesmallscreensSubsetName>
-    <!-- Opcje podzbioru dla widoków siatki -->
+    <optimizesmallscreensSubsetName>Optymalizuj dla małych ekranów</optimizesmallscreensSubsetName>
+    <!-- Opcje widoku siatki -->
     <videoboxesSubsetName>Pokaż wideo w trybie pudełkowym</videoboxesSubsetName>
-    <zoomboxesSubsetName>Zoomboxy</zoomboxesSubsetName>
+    <zoomboxesSubsetName>Powiększ pudełka</zoomboxesSubsetName>
     <orientationSubsetName>Orientacja</orientationSubsetName>
-    <pionowo>Pionowo</pionowo>
-    <poziomo>Poziomo</poziomo>
-    <hideselectionSubsetName>Ukryj zaznaczenie</hideselectionSubsetName>
+    <pionowo>Pionowa</pionowo>
+    <poziomo>Pozioma</poziomo>
+    <hideselectionSubsetName>Ukryj wybór</hideselectionSubsetName>
     <previewBarSubsetName>Panel podglądu</previewBarSubsetName>
     <animatedInfobar>Animacje na pasku informacyjnym</animatedInfobar>
-    <!-- Opcje podzbioru dla widoku kafelków -->
+    <!-- Opcje widoku miniatur -->
     <glowSubsetName>Wybór z aureolą</glowSubsetName>
-    <roundBorderSubsetName>Okrągłe obramowania</roundBorderSubsetName>
+    <roundBorderSubsetName>Okrągłe ramki</roundBorderSubsetName>
     <blinkBorderSubsetName>Migające ramki</blinkBorderSubsetName>
-    <videosSubsetName>Filmy</videosSubsetName>
+    <videosSubsetName>Wideo</videosSubsetName>
     <logosSubsetNamegamecarouseltype>Miniatury</logosSubsetNamegamecarouseltype>
     <gamecarouseltype>Źródło obrazu karuzeli</gamecarouseltype>
-    <marquee>Markiza</marquee>
+    <marquee>Marquee</marquee>
     <image>Obraz</image>
     <text>Tekst</text>
     <thumbnail>Miniatura</thumbnail>
