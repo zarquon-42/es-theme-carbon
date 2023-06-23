@@ -18,32 +18,32 @@
   <orange>Naranja</orange>
   <gray>Gris</gray>
   <!-- Common views  -->
-  <tilesViewName>Viñetas</tilesViewName>
+  <tilesViewName>Miniaturas</tilesViewName>
   <basicGridName>Cuadrícula</basicGridName>
-  <gameCarouselViewName>Carrossel de cajas</gameCarouselViewName>
+  <gameCarouselViewName>Carrussel de cajas</gameCarouselViewName>
     <carouselViewName>Carrusel</carouselViewName>
   <!-- Subset option for System extended informations -->
   <systemViewExInfos>Información de sistemas detallada</systemViewExInfos>
-  <yes>Si</yes>
+  <yes>Sí</yes>
   <no>No</no>
   <!-- Subset options for screen -->
   <systemViewName>Visualización de sistema</systemViewName>
-  <systemview.darkened>oscurecido</systemview.darkened>
-  <systemview.horizontal>horizontal</systemview.horizontal>
-  <systemview.legacy>antiguo</systemview.legacy>
-  <systemview.transparent>transparente</systemview.transparent>
-  <systemview.simple>simple</systemview.simple>
-  <systemview.vertical>vertical</systemview.vertical>
-  <systemview.wheel>rueda</systemview.wheel>
+  <systemview.darkened>Oscurecido</systemview.darkened>
+  <systemview.horizontal>Horizontal</systemview.horizontal>
+  <systemview.legacy>Heredado</systemview.legacy>
+  <systemview.transparent>Transparente</systemview.transparent>
+  <systemview.simple>Simple</systemview.simple>
+  <systemview.vertical>Vertical</systemview.vertical>
+  <systemview.wheel>Carrusel</systemview.wheel>
   <!-- Subset option for System view background -->
   <systemBackgroundName>Fondo</systemBackgroundName>
   <systembackground.miniconsoles>Mini video</systembackground.miniconsoles>
-  <animatedBackground>Animaciones de plano de fondo</animatedBackground>
+  <animatedBackground>Animaciones de fondo</animatedBackground>
   <!-- change default for small screens -->
   <systembackground.consoles>Consolas</systembackground.consoles>
   <systembackground.miniconsoles>Mini consolas</systembackground.miniconsoles>
-  <systembackground.carboncontrollers>Controles carbon</systembackground.carboncontrollers>
-  <systembackground.carbonlegacy>Controles antiguos</systembackground.carbonlegacy>
+  <systembackground.carboncontrollers>Controles Carbon</systembackground.carboncontrollers>
+  <systembackground.carbonlegacy>Controles heredados</systembackground.carbonlegacy>
   <systembackground.simple>Simple</systembackground.simple>
   <systembackground.randomvideo>Vídeo aleatorio</systembackground.randomvideo>
   <systembackground.randomfanart>Ilustración aleatoria</systembackground.randomfanart>
@@ -55,9 +55,9 @@
   <!-- Fix for controller image size -->
   <systemview.simple>simple</systemview.simple>
   <systemview.vertical>vertical</systemview.vertical>
-  <systemview.wheel>calesita</systemview.wheel>
+  <systemview.wheel>carrusel</systemview.wheel>
   <!-- Fix for Legacy option in systemview subset : systemInfo colors have to be restored after applying systembackground subset -->
-  <systemview.legacy>legado</systemview.legacy>
+  <systemview.legacy>heredado</systemview.legacy>
     <!-- Subset options for help -->
   <helpSubsetName>Iconos de ayuda</helpSubsetName>
   <helpbuttons>Posición de los botones</helpbuttons>
@@ -65,10 +65,10 @@
   <psxbuttons>Botones PlayStation</psxbuttons>
   <colored>Coloreados</colored>
   <!-- Subset options for screen -->
-  <subset.shader>Efectos TV</subset.shader>
+  <subset.shader>Filtros</subset.shader>
   <none>Ninguno</none>
   <scanlines>Líneas de escaneo</scanlines>
-  <crt>Tubo rayos catódicos</crt>
+  <crt>Tubo rayos catódicos/CRT</crt>
   <!-- Specific layout for systems -->
   <!-- <system.theme>Tema</system.theme> -->
   <!-- add game info bar -->
@@ -83,7 +83,7 @@
   <horizontal>Horizontal</horizontal>
   <hideselectionSubsetName>Ocultar la selección</hideselectionSubsetName>
   <previewBarSubsetName>Panel de visualización</previewBarSubsetName>
-  <animatedInfobar>Animações na barra de informação</animatedInfobar>
+  <animatedInfobar>Animaciones barra de Información</animatedInfobar>
   <!-- Subset options for Tiles view -->
   <glowSubsetName>Selección con halo</glowSubsetName>
   <roundBorderSubsetName>Bordes redondeados</roundBorderSubsetName>
@@ -91,10 +91,10 @@
   <videosSubsetName>Vídeos</videosSubsetName>
   <logosSubsetNamegamecarouseltype>Miniaturas</logosSubsetNamegamecarouseltype>
   <gamecarouseltype>Fuente de imagen de carrusel</gamecarouseltype>
-  <marquee>marquesina</marquee>
-  <image>imagen</image>
-  <text>texto</text>
-  <thumbnail>miniatura</thumbnail>
+  <marquee>Marquesina</marquee>
+  <image>Imagen</image>
+  <text>Texto</text>
+  <thumbnail>Miniatura</thumbnail>
   <animationsSubsetName>Animaciones de transición</animationsSubsetName>
 </variables>  
 </theme>

@@ -20,6 +20,7 @@ Chinese: @wanger
 Brasilian Portuguese: @maioni
 Italian: @sparkster
 Polish: @kycho
+Spanish: @_harry_
 
 Changelog
 =========
