@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
- <!-- Catalan -->
- <variables lang="ca">
-  <dateFormat>%d/%m/%Y</dateFormat>
+  <!-- Catalan -->
+  <variables lang="ca">
+    <dateFormat>%d/%m/%Y</dateFormat>
     <!-- Region -->
     <subset.region>Regió</subset.region>
     <!-- Colorsets  -->
@@ -21,6 +21,8 @@
     <tilesViewName>Miniatures</tilesViewName>
     <basicGridName>Quadrícula</basicGridName>
     <carouselViewName>Carrusel</carouselViewName>
+    <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
+    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Informació del sistema millorada</systemViewExInfos>
     <yes>Sí</yes>

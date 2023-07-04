@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
- <!-- Japanese -->
- <variables lang="jp">
-  <dateFormat>年 %Y 月 %m 日 %d</dateFormat>
+  <!-- Japanese -->
+  <variables lang="jp">
+    <dateFormat>年 %Y 月 %m 日 %d</dateFormat>
     <!-- Region -->
     <subset.region>地域</subset.region>
     <!-- Colorsets  -->
@@ -21,6 +21,8 @@
     <tilesViewName>ミニチュア</tilesViewName>
     <basicGridName>グリッド</basicGridName>
     <carouselViewName>カルーセル</carouselViewName>
+    <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
+    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>システム情報の充実</systemViewExInfos>
     <yes>あり</yes>
@@ -92,6 +94,6 @@
     <image>画像</image>
     <text>テキスト</text>
     <thumbnail>サムネイル</thumbnail>
-     <animationsSubsetName>トランジションアニメーション</animationsSubsetName>
+    <animationsSubsetName>トランジションアニメーション</animationsSubsetName>
   </variables>  
 </theme>

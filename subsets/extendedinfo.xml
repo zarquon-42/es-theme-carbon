@@ -132,6 +132,8 @@ Mais jogados : {binding:mostPlayed}
       <text lang="de">Anzahl der Sammlungen : {binding:subSystems}</text>
       <text lang="el">Αριθμός συλλογών : {binding:subSystems}</text>
       <text lang="en">Number of collections : {binding:subSystems}</text>
+      <text lang="engb">Number of collections : {binding:subSystems}</text>
+      <text lang="en_GB">Number of collections : {binding:subSystems}</text>
       <text lang="es">Número de colecciones : {binding:subSystems}</text>
       <text lang="fr">Nombre de collections : {binding:subSystems}</text>
       <text lang="it">Numero di raccolte : {binding:subSystems}</text>
@@ -139,6 +141,7 @@ Mais jogados : {binding:mostPlayed}
       <text lang="ko">컬렉션 개수 : {binding:subSystems}</text>
       <text lang="nl">Aantal verzamelingen : {binding:subSystems}</text>
       <text lang="pl">Liczba kolekcji : {binding:subSystems}</text>
+      <text lang="pt">Número de coleções : {binding:subSystems}</text>
       <text lang="pt_BR">Número de coleções : {binding:subSystems}</text>
       <text lang="ptbr">Número de coleções : {binding:subSystems}</text>
       <text lang="ru">Количество коллекций : {binding:subSystems}</text>
@@ -154,6 +157,7 @@ Mais jogados : {binding:mostPlayed}
       <text lang="el">Αριθµός στοιχείων : {binding:total}</text>
       <text lang="en">Number of items : {binding:total}</text>
       <text lang="en_GB">Number of items : {binding:total}</text>
+      <text lang="engb">Number of items : {binding:total}</text>
       <text lang="es">Número de elementos: {binding:total}</text>
       <text lang="fr">Nombre d'élements : {binding:total}</text>
       <text lang="it">Numero di elementi : {binding:total}</text>

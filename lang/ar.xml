@@ -3,100 +3,100 @@
   <formatVersion>7</formatVersion>
   <!-- Arabic -->
   <variables lang="ar">
-  <dateFormat>%d/%m/%Y</dateFormat>
-  <!-- Region -->
-  <subset.region>ريجياو</subset.region>
-  <!-- Colorsets  -->
-  <subset.colorset>نظام الألوان</subset.colorset>
-  <iconsViewName>أيقونات</iconsViewName>
-  <blue>أزول</blue>
-  <red>فيرميلو</red>
-  <green>فيردي</green>
-  <cyan>سيانو</cyan>
-  <yellow>أماريلو</yellow>
-  <violet>فيوليتا</violet>
-  <orange>لارانيا</orange>
-  <gray>سينزا</gray>
-  <!-- Common views  -->
-  <tilesViewName>مينياتوراس</tilesViewName>
-  <basicGridName>درجة</basicGridName>
-  <gameCarouselViewName>كارروسيل دي كايكساس</gameCarouselViewName>
-  <carouselViewName>كارروسيل</carouselViewName>
-  <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
-  <subset.carouselViewName>كارروسيل الفرعية</subset.carouselViewName>
-  <!-- Subset option for System extended informations -->
-  <systemViewExInfos>تحسين معلومات النظام</systemViewExInfos>
-  <yes>سيم</yes>
-  <no>ناو</no>
-  <!-- Subset options for screen -->
-  <systemViewName>عرض النظام</systemViewName>
-  <systemview.darkened>اسكوريسيدو</systemview.darkened>
-  <systemview.horizontal>أفقي</systemview.horizontal>
-  <systemview.legacy>ليغادو</systemview.legacy>
-  <systemview.transparent>الشفافية</systemview.transparent>
-  <systemview.simple>البسطاء</systemview.simple>
-  <systemview.vertical>رَأسِيّ</systemview.vertical>
-  <systemview.wheel>كارروسيل</systemview.wheel>
-  <!-- Subset option for System view background -->
-  <systemBackgroundName>بلانو دي فوندو</systemBackgroundName>
-  <systembackground.miniconsoles>فيديو صغير</systembackground.miniconsoles>
-  <animatedBackground>الرسوم المتحركة في الخلفية</animatedBackground>
-  <!-- change default for small screens -->
-  <systembackground.consoles>ألعاب الفيديو</systembackground.consoles>
-  <systembackground.miniconsoles>ألعاب الفيديو المصغرة</systembackground.miniconsoles>
-  <systembackground.carboncontrollers>ضوابط دي كاربونو</systembackground.carboncontrollers>
-  <systembackground.carbonlegacy>ليغادو</systembackground.carbonlegacy>
-  <systembackground.simple>البسطاء</systembackground.simple>
-  <systembackground.randomvideo>فيديو عشوائي</systembackground.randomvideo>
-  <systembackground.randomfanart>فن عشوائي</systembackground.randomfanart>
-  <systembackground.randomimage>صورة عشوائية</systembackground.randomimage>
-  <systembackground.randombox>لعبة مربع عشوائي</systembackground.randombox>
-  <systembackground.minirandomimage>صورة لعبة صغيرة عشوائية</systembackground.minirandomimage>
-  <systembackground.minirandombox>صندوق ألعاب صغير عشوائي</systembackground.minirandombox>
-  <systembackground.minirandomvideo>فيديو صغير عشوائي</systembackground.minirandomvideo>
-  <!-- Fix for controller image size -->
-  <systemview.simple>البسطاء</systemview.simple>
-  <systemview.vertical>رَأسِيّ</systemview.vertical>
-  <systemview.wheel>كارروسيل</systemview.wheel>
-  <!-- Fix for Legacy option in systemview subset : systemInfo colors have to be restored after applying systembackground subset -->
-  <systemview.legacy>ليغادو</systemview.legacy>
-    <!-- Subset options for help -->
-  <helpSubsetName>رموز المساعدة</helpSubsetName>
-  <helpbuttons>بوتيس دي أجودا</helpbuttons>
-  <xboxbuttons>أزرار Xbox</xboxbuttons>
-  <psxbuttons>أزرار PlayStation</psxbuttons>
-  <colored>زاهى الألوان</colored>
-  <!-- Subset options for screen -->
-  <subset.shader>فلتروس</subset.shader>
-  <none>نينهوم</none>
-  <scanlines>لينهاس دي فارريدورا</scanlines>
-  <crt>تلفزيون دي توبو</crt>
-  <!-- Specific layout for systems -->
-  <!-- <system.theme>Tema</system.theme> -->
-  <!-- add game info bar -->
-  <gameBar>شريط معلومات اللعبة</gameBar>
-  <!-- Layout for small screens -->
-  <optimizesmallscreensSubsetName>التحسين للشاشات الصغيرة</optimizesmallscreensSubsetName>
-  <!-- Subset options for grid views -->
-  <videoboxesSubsetName>عرض الفيديو في وضع الصندوق</videoboxesSubsetName>
-  <zoomboxesSubsetName>كايكساس دي زووم</zoomboxesSubsetName>
-  <orientationSubsetName>أورينتاساو</orientationSubsetName>
-  <vertical>رَأسِيّ</vertical>
-  <horizontal>أفقي</horizontal>
-  <hideselectionSubsetName>اختيار اخفي</hideselectionSubsetName>
-  <previewBarSubsetName>جزء المعاينة</previewBarSubsetName>
-  <animatedInfobar>الرسوم المتحركة شريط المعلومات</animatedInfobar>
-  <!-- Subset options for Tiles view -->
-  <glowSubsetName>سيليساو كوم أريولا</glowSubsetName>
-  <roundBorderSubsetName>بورداس ريدوندا</roundBorderSubsetName>
-  <blinkBorderSubsetName>وامض الحواف</blinkBorderSubsetName>
-  <videosSubsetName>أشرطة فيديو</videosSubsetName>
-  <logosSubsetNamegamecarouseltype>مينياتوراس</logosSubsetNamegamecarouseltype>
-  <gamecarouseltype>مصدر الصورة للعرض الدائري</gamecarouseltype>
-  <marquee>ماركيز</marquee>
-  <image>إيماجيم</image>
-  <text>تكستو</text>
-  <thumbnail>مينياتورا</thumbnail>
-  <animationsSubsetName>الرسوم المتحركة الانتقالية</animationsSubsetName>
-</variables>  
+    <dateFormat>%d/%m/%Y</dateFormat>
+    <!-- Region -->
+    <subset.region>منطقة</subset.region>
+    <!-- Colorsets  -->
+    <subset.colorset>نظام الألوان</subset.colorset>
+    <iconsViewName>أيقونات</iconsViewName>
+    <blue>أزرق</blue>
+    <red>أحمر</red>
+    <green>أخضر</green>
+    <cyan>سيانو</cyan>
+    <yellow>أصفر</yellow>
+    <violet>فيوليتا</violet><!-- I do not know -->
+    <orange>برتقالي</orange>
+    <gray>رمادي</gray>
+    <!-- Common views  -->
+    <tilesViewName>الصورة المصغرة</tilesViewName>
+    <basicGridName>شبكة</basicGridName>
+    <gameCarouselViewName>استدارة الإطار</gameCarouselViewName>
+    <carouselViewName>مستدير</carouselViewName>
+    <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
+    <subset.carouselViewName>كارروسيل الفرعية</subset.carouselViewName>
+    <!-- Subset option for System extended informations -->
+    <systemViewExInfos>استورد معلومات النظام</systemViewExInfos>
+    <yes>نعم</yes>
+    <no>لا</no>
+    <!-- Subset options for screen -->
+    <systemViewName>نظام العرض</systemViewName>
+    <systemview.darkened>مظلمة</systemview.darkened> <!-- don't sure --> 
+    <systemview.horizontal>أفقي</systemview.horizontal>
+    <systemview.legacy>إرث</systemview.legacy>         <!-- don't sure -->
+    <systemview.transparent>الشفافية</systemview.transparent>
+    <systemview.simple>البسطاء</systemview.simple>  <!-- don't sure -->
+    <systemview.vertical>رَأسِيّ</systemview.vertical>
+    <systemview.wheel>مستدير</systemview.wheel>
+    <!-- Subset option for System view background -->
+    <systemBackgroundName>الخلفية</systemBackgroundName>
+    <systembackground.miniconsoles>فيديو صغير</systembackground.miniconsoles>
+    <animatedBackground>الرسوم المتحركة في الخلفية</animatedBackground>
+    <!-- change default for small screens -->
+    <systembackground.consoles>ألعاب الفيديو</systembackground.consoles>
+    <systembackground.miniconsoles>ألعاب الفيديو المصغرة</systembackground.miniconsoles>
+    <systembackground.carboncontrollers>متحكمات الكربون</systembackground.carboncontrollers> <!-- don't sure -->
+    <systembackground.carbonlegacy>إرث</systembackground.carbonlegacy> <!-- don't sure -->
+    <systembackground.simple>البسطاء</systembackground.simple><!-- don't sure -->
+    <systembackground.randomvideo>فيديو عشوائي</systembackground.randomvideo>
+    <systembackground.randomfanart>فن هواة عشوائي</systembackground.randomfanart>
+    <systembackground.randomimage>صورة عشوائية</systembackground.randomimage>
+    <systembackground.randombox>صندوق لعبة عشوائي</systembackground.randombox>
+    <systembackground.minirandomimage>صورة لعبة مصغرة عشوائية</systembackground.minirandomimage>
+    <systembackground.minirandombox>صندوق ألعاب مصغر عشوائي</systembackground.minirandombox>
+    <systembackground.minirandomvideo>فيديو مصغر عشوائي</systembackground.minirandomvideo>
+    <!-- Fix for controller image size -->
+    <systemview.simple>البسطاء</systemview.simple><!-- don't sure -->
+    <systemview.vertical>رَأسِيّ</systemview.vertical>
+    <systemview.wheel>مستدير</systemview.wheel> <!-- don't sure -->
+    <!-- Fix for Legacy option in systemview subset : systemInfo colors have to be restored after applying systembackground subset -->
+    <systemview.legacy>إرث</systemview.legacy> <!-- don't sure -->
+      <!-- Subset options for help -->
+    <helpSubsetName>أيقونات المساعدة</helpSubsetName>
+    <helpbuttons> موقع الزر</helpbuttons>
+    <xboxbuttons>أزرار Xbox</xboxbuttons>
+    <psxbuttons>أزرار PlayStation</psxbuttons>
+    <colored>زاهى الألوان</colored>
+    <!-- Subset options for screen -->
+    <subset.shader>المرشحات</subset.shader>
+    <none>بدون</none>
+    <scanlines>فحص السطر</scanlines>
+    <crt>Tube تلفاز</crt>
+    <!-- Specific layout for systems -->
+    <!-- <system.theme>Tema</system.theme> -->
+    <!-- add game info bar -->
+    <gameBar>شريط معلومات اللعبة</gameBar>
+    <!-- Layout for small screens -->
+    <optimizesmallscreensSubsetName>التحسين للشاشات الصغيرة</optimizesmallscreensSubsetName>
+    <!-- Subset options for grid views -->
+    <videoboxesSubsetName>عرض الفيديو في وضع الصندوق</videoboxesSubsetName>
+    <zoomboxesSubsetName>مربعات التكبير</zoomboxesSubsetName>
+    <orientationSubsetName>الاتجاه</orientationSubsetName>
+    <vertical>رَأسِيّ</vertical>
+    <horizontal>أفقي</horizontal>
+    <hideselectionSubsetName>اختيار المخفي</hideselectionSubsetName>
+    <previewBarSubsetName>لوحة المعاينة</previewBarSubsetName>
+    <animatedInfobar> حركة شريط المعلومات</animatedInfobar>
+    <!-- Subset options for Tiles view -->
+    <glowSubsetName>الإختيار بواسطةهالو</glowSubsetName>
+    <roundBorderSubsetName>حواف مستديرة</roundBorderSubsetName>
+    <blinkBorderSubsetName>وميض الحواف</blinkBorderSubsetName>
+    <videosSubsetName> فيديوهات</videosSubsetName>
+    <logosSubsetNamegamecarouseltype>صورة مصغرة</logosSubsetNamegamecarouseltype>
+    <gamecarouseltype>مصدر الصورة للعرض الدائري</gamecarouseltype>
+    <marquee>ماركيز</marquee>
+    <image>صورة</image>
+    <text>نص</text>
+    <thumbnail>مينياتورا</thumbnail>
+    <animationsSubsetName>الانتقالات</animationsSubsetName>
+  </variables>  
 </theme>

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
- <!-- English United Kingdom -->
- <variables lang="en_GB">
-  <dateFormat>%m/%d/%Y</dateFormat>
+  <!-- English United Kingdom -->
+  <variables lang="en_GB">
+    <dateFormat>%m/%d/%Y</dateFormat>
     <!-- Region -->
     <subset.region>Region</subset.region>
     <!-- Colorsets  -->
@@ -21,6 +21,8 @@
     <tilesViewName>Miniatures</tilesViewName>
     <basicGridName>Grid</basicGridName>
     <carouselViewName>Carousel</carouselViewName>
+    <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
+    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Enhanced system information</systemViewExInfos>
     <yes>Yes</yes>
@@ -92,6 +94,6 @@
     <image>Image</image>
     <text>Text</text>
     <thumbnail>Miniature</thumbnail>
-     <animationsSubsetName>Transition animations</animationsSubsetName>
+    <animationsSubsetName>Transition animations</animationsSubsetName>
   </variables>  
 </theme>

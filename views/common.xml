@@ -63,6 +63,7 @@ originally based on: "simple" by nils bonenberger
     <image name="logo">
       <!-- try png -->
       <path>./art/logos/${system.theme}.png</path>
+      <path>./art/logos/${system.theme}.webp</path>
       <path>./art/logos/${system.theme}.svg</path>
       <path>./art/logos/${system.theme}-${lang}.png</path>
       <path>./art/logos/${system.theme}-${lang}.svg</path>

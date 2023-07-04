@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
- <!-- English -->
- <variables lang="en">
-  <dateFormat>%m/%d/%Y</dateFormat>
+  <!-- English -->
+  <variables lang="en">
+    <dateFormat>%m/%d/%Y</dateFormat>
     <!-- Region -->
     <subset.region>Region</subset.region>
     <!-- Colorsets  -->
@@ -22,6 +22,8 @@
     <basicGridName>Grid</basicGridName>
     <gameCarouselViewName>Carousel of boxes</gameCarouselViewName>
     <carouselViewName>Carousel</carouselViewName>
+    <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
+    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Improved system information</systemViewExInfos>
     <yes>Yes</yes>
@@ -69,6 +71,7 @@
     <none>None</none>
     <scanlines>Scan Lines</scanlines>
     <crt>Tube TV</crt>
+    
     <!-- add game info bar -->
     <gameBar>Game information bar</gameBar>
     <!-- Layout for small screens -->
@@ -93,6 +96,6 @@
     <image>Image</image>
     <text>Text</text>
     <thumbnail>Miniature</thumbnail>
-     <animationsSubsetName>Transition animations</animationsSubsetName>
+    <animationsSubsetName>Transition animations</animationsSubsetName>
   </variables>  
 </theme>

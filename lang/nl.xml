@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
- <!-- Dutch -->
- <variables lang="nl">
-  <dateFormat>%d-%m-%Y</dateFormat>
+  <!-- Dutch -->
+  <variables lang="nl">
+    <dateFormat>%d-%m-%Y</dateFormat>
     <!-- Region -->
     <subset.region>Regio</subset.region>
     <!-- Colorsets  -->
@@ -21,6 +21,8 @@
     <tilesViewName>Miniaturen</tilesViewName>
     <basicGridName>Rooster</basicGridName>
     <carouselViewName>Carrousel</carouselViewName>
+    <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
+    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Verbeterde systeeminformatie</systemViewExInfos>
     <yes>Ja</yes>
@@ -92,6 +94,6 @@
     <image>Afbeelding</image>
     <text>Tekst</text>
     <thumbnail>Miniatuurafbeelding</thumbnail>
-     <animationsSubsetName>Overgangsanimaties</animationsSubsetName>
+    <animationsSubsetName>Overgangsanimaties</animationsSubsetName>
   </variables>  
 </theme>

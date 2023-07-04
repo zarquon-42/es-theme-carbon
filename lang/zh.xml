@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
- <!-- Chinese -->
- <variables lang="zh">
-  <dateFormat>%m/%d/%Y</dateFormat>
+  <!-- Chinese -->
+  <variables lang="zh">
+    <dateFormat>%m/%d/%Y</dateFormat>
     <!-- Region -->
     <subset.region>地区</subset.region>
     <!-- Colorsets  -->
@@ -21,6 +21,8 @@
     <tilesViewName>缩略图</tilesViewName>
     <basicGridName>网格</basicGridName>
     <carouselViewName>旋转</carouselViewName>
+    <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
+    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>改善系统信息</systemViewExInfos>
     <yes>是</yes>
@@ -92,6 +94,6 @@
     <image>图像</image>
     <text>文本</text>
     <thumbnail>缩略图</thumbnail>
-     <animationsSubsetName>过渡动画</animationsSubsetName>
+    <animationsSubsetName>过渡动画</animationsSubsetName>
   </variables>  
 </theme>

@@ -5,7 +5,7 @@ author: Fabrice CARUSO
 license: creative commons CC-BY-NC-SA
 originally based on: "Carbon" by Eric Hettervik (Rookervik)
 originally based on: "simple" by nils bonenberger
-languages and missing systems (batocera v36-v37-v38): by maioni
+languages and missing systems (batocera v36): by maioni
 -->
 <theme defaultView="Icons">
   <formatVersion>7</formatVersion>
@@ -62,15 +62,16 @@ languages and missing systems (batocera v36-v37-v38): by maioni
     <animatedInfobar>Animated preview bar</animatedInfobar>
   </variables>
   <include lang="ar">./lang/ar.xml</include>
-  <include region="br">./lang/pt_BR.xml</include>
+  <include region="br">./lang/br.xml</include>
   <include lang="ca">./lang/ca.xml</include>
   <include lang="de">./lang/de.xml</include>
-  <include lang="el">./lang/el.xml</include>
   <include lang="en">./lang/en.xml</include>
-  <include lang="en_GB">./lang/en_GB.xml</include>
+  <include lang="engb">./lang/engb.xml</include>
+  <include lang="en_GB">./lang/engb.xml</include>
   <include lang="es">./lang/es.xml</include>
   <include lang="eu">./lang/en.xml</include>
   <include lang="fr">./lang/fr.xml</include>
+  <include lang="gr">./lang/gr.xml</include>
   <include lang="it">./lang/it.xml</include>
   <include lang="jp">./lang/jp.xml</include>
   <include lang="ko">./lang/ko.xml</include>
@@ -78,6 +79,7 @@ languages and missing systems (batocera v36-v37-v38): by maioni
   <include lang="pl">./lang/pl.xml</include>
   <include lang="pt">./lang/pt.xml</include>
   <include lang="pt_BR">./lang/pt_BR.xml</include>
+  <include lang="ptbr">./lang/ptbr.xml</include>
   <include lang="ru">./lang/ru.xml</include>
   <include lang="uk">./lang/ru.xml</include>
   <include lang="zh">./lang/zh.xml</include> 

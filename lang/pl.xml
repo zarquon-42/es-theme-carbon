@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
- <!-- Polski -->
- <variables lang="pl">
-  <dateFormat>%d.%m.%Y</dateFormat>
+  <!-- Polski -->
+  <variables lang="pl">
+    <dateFormat>%d.%m.%Y</dateFormat>
     <!-- Region -->
     <subset.region>Region</subset.region>
     <!-- Zestawy kolorów -->
@@ -21,6 +21,8 @@
     <tilesViewName>Miniatury</tilesViewName>
     <basicGridName>Siatka</basicGridName>
     <carouselViewName>Karuzela</carouselViewName>
+    <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
+    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
     <!-- Opcja rozszerzonych informacji systemowych -->
     <systemViewExInfos>Rozszerzone informacje o systemie</systemViewExInfos>
     <yes>Tak</yes>

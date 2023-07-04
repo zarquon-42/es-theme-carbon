@@ -22,6 +22,9 @@
   <variables lang="en">
     <animatedCovers>Random boxes</animatedCovers>
   </variables>
+  <variables lang="engb">
+    <animatedCovers>Random boxes</animatedCovers>
+  </variables>
   <variables lang="en_GB">
     <animatedCovers>Random boxes</animatedCovers>
   </variables>
@@ -64,9 +67,6 @@
   <variables lang="zh">
     <animatedCovers>随机盒子</animatedCovers>
   </variables>
-  <!-- <variables lang="us">
-    <animatedCovers>Random boxes</animatedCovers>
-  </variables> -->
   <subset name="animatedCovers" displayName="${animatedCovers}" tinyScreen="false" ifSubset="systemview:horizontal|darkened|transparent|legacy">
     <include name="no" displayName="${no}"/>
     <include name="yes" displayName="${yes}">./animatedcovers.xml</include>

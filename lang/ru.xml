@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
- <!-- Russian -->
- <variables lang="ru">
-  <dateFormat>%d/%m/%Y</dateFormat>
+  <!-- Russian -->
+  <variables lang="ru">
+    <dateFormat>%d/%m/%Y</dateFormat>
     <!-- Region -->
     <subset.region>Регион</subset.region>
     <!-- Colorsets  -->
@@ -21,6 +21,8 @@
     <tilesViewName>Миниатюры</tilesViewName>
     <basicGridName>Сетка</basicGridName>
     <carouselViewName>Карусель</carouselViewName>
+    <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
+    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Расширенная системная информация</systemViewExInfos>
     <yes>Да</yes>
@@ -92,6 +94,6 @@
     <image>Изображение</image>
     <text>Текст</text>
     <thumbnail>Эскизы</thumbnail>
-     <animationsSubsetName>Анимация перехода</animationsSubsetName>
+    <animationsSubsetName>Анимация перехода</animationsSubsetName>
   </variables>  
 </theme>

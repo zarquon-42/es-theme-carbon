@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
- <!-- Portuguese -->
- <variables lang="pt">
-  <dateFormat>%d/%m/%Y</dateFormat>
+  <!-- Portuguese -->
+  <variables lang="pt">
+    <dateFormat>%d/%m/%Y</dateFormat>
     <!-- Region -->
     <subset.region>Região</subset.region>
     <!-- Colorsets  -->
@@ -22,6 +22,8 @@
     <basicGridName>Grelha</basicGridName>
     <gameCarouselViewName>Carrossel de caixas</gameCarouselViewName>
     <carouselViewName>Carrossel</carouselViewName>
+    <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
+    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Informações de sistema aprimoradas</systemViewExInfos>
     <yes>Sim</yes>
@@ -93,6 +95,6 @@
     <image>Imagem</image>
     <text>Texto</text>
     <thumbnail>Miniatura</thumbnail>
-     <animationsSubsetName>Animações de transição</animationsSubsetName>
+    <animationsSubsetName>Animações de transição</animationsSubsetName>
   </variables>  
 </theme>
