@@ -18,11 +18,21 @@
       <reflexion>0.16 0.0</reflexion>
       <reflexionOnFrame>true</reflexionOnFrame>
     </image>
+    <image name="logo" region="br">
+      <path>./../../art/logos/br/${system.theme}.png</path>
+      <path>./../logos/br/${system.theme}-w.png</path>
+      <path>./../../art/logos/br/${system.theme}.svg</path>
+      <path>./../logos/br/${system.theme}-w.svg</path>
+    </image>
     <image name="logo" region="us">
+      <path>./../../art/logos/us/${system.theme}.png</path>
+      <path>./../logos/us/${system.theme}-w.png</path>
       <path>./../../art/logos/us/${system.theme}.svg</path>
       <path>./../logos/us/${system.theme}-w.svg</path>
     </image>
     <image name="logo" region="jp">
+      <path>./../../art/logos/jp/${system.theme}.png</path>
+      <path>./../../art/logos/jp/${system.theme}-w.png</path>
       <path>./../../art/logos/jp/${system.theme}.svg</path>
       <path>./../../art/logos/jp/${system.theme}-w.svg</path>
     </image>
