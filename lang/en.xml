@@ -23,7 +23,7 @@
     <gameCarouselViewName>Carousel of boxes</gameCarouselViewName>
     <carouselViewName>Carousel</carouselViewName>
     <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
-    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
+    <subset.carouselViewName>Carousel sub</subset.carouselViewName> <!-- NEED TRANSLATION -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Improved system information</systemViewExInfos>
     <yes>Yes</yes>
@@ -71,7 +71,8 @@
     <none>None</none>
     <scanlines>Scan Lines</scanlines>
     <crt>Tube TV</crt>
-    
+    <!-- Specific layout for systems -->
+    <!-- <system.theme>Theme</system.theme> -->
     <!-- add game info bar -->
     <gameBar>Game information bar</gameBar>
     <!-- Layout for small screens -->

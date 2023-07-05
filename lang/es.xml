@@ -23,7 +23,7 @@
     <gameCarouselViewName>Carrussel de cajas</gameCarouselViewName>
     <carouselViewName>Carrusel</carouselViewName>
     <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
-    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
+    <subset.carouselViewName>Carousel sub</subset.carouselViewName> <!-- NEED TRANSLATION -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Información de sistemas detallada</systemViewExInfos>
     <yes>Sí</yes>
@@ -72,7 +72,7 @@
     <scanlines>Líneas de escaneo</scanlines>
     <crt>Tubo rayos catódicos/CRT</crt>
     <!-- Specific layout for systems -->
-    <!-- <system.theme>Tema</system.theme> -->
+    <!-- <system.theme>Theme</system.theme> -->
     <!-- add game info bar -->
     <gameBar>Barra de información de los juegos</gameBar>
     <!-- Layout for small screens -->

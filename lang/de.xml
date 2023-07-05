@@ -22,6 +22,8 @@
     <basicGridName>Raster</basicGridName>
     <gameCarouselViewName>Nachtclub-Karussell</gameCarouselViewName>
     <carouselViewName>Karussell</carouselViewName>
+    <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
+    <subset.carouselViewName>Carousel sub</subset.carouselViewName> <!-- NEED TRANSLATION -->
     <!-- Subset-Option für erweiterte Systeminformationen -->
     <systemViewExInfos>Verbesserte Systeminformationen</systemViewExInfos>
     <yes>Ja</yes>
@@ -35,8 +37,6 @@
     <systemview.simple>Einfach</systemview.simple>
     <systemview.vertical>Vertikal</systemview.vertical>
     <systemview.wheel>Karussell</systemview.wheel>
-    <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
-    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
     <!-- Subset-Option für den Hintergrund der Systemansicht -->
     <systemBackgroundName>Hintergrund</systemBackgroundName>
     <systembackground.miniconsoles>Minivideo</systembackground.miniconsoles>
@@ -72,6 +72,8 @@
     <scanlines>Scanlines</scanlines>
     <crt>Röhrenfernseher</crt>
     <!-- Spielinfoleiste hinzufügen -->
+    <!-- <system.theme>Theme</system.theme> -->
+    <!-- add game info bar -->
     <gameBar>Spielinfoleiste</gameBar>
     <!-- Layout für kleine Bildschirme -->
     <optimizesmallscreensSubsetName>Für kleine Bildschirme optimieren</optimizesmallscreensSubsetName>

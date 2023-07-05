@@ -23,7 +23,7 @@
     <gameCarouselViewName>Carrousel de boîtes</gameCarouselViewName>
     <carouselViewName>Carrousel</carouselViewName>
     <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
-    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
+    <subset.carouselViewName>Carousel sub</subset.carouselViewName> <!-- NEED TRANSLATION -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Informations du système améliorées</systemViewExInfos>
     <yes>Oui</yes>

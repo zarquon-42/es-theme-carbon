@@ -72,7 +72,7 @@
     <scanlines>فحص السطر</scanlines>
     <crt>Tube تلفاز</crt>
     <!-- Specific layout for systems -->
-    <!-- <system.theme>Tema</system.theme> -->
+    <!-- <system.theme>Theme</system.theme> -->
     <!-- add game info bar -->
     <gameBar>شريط معلومات اللعبة</gameBar>
     <!-- Layout for small screens -->

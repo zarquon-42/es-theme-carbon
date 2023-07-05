@@ -71,6 +71,8 @@
     <none>Nenhum</none>
     <scanlines>Linhas de varrimento</scanlines>
     <crt>TV de tubo</crt>
+    <!-- Specific layout for systems -->
+    <!-- <system.theme>Tema</system.theme> -->
     <!-- add game info bar -->
     <gameBar>Barra de informação de jogo</gameBar>
     <!-- Layout for small screens -->

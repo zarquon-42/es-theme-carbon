@@ -20,9 +20,10 @@
     <!-- Common views  -->
     <tilesViewName>Миниатюры</tilesViewName>
     <basicGridName>Сетка</basicGridName>
+    <gameCarouselViewName>Карусель из коробок</gameCarouselViewName> <!-- NEED REVIEW -->
     <carouselViewName>Карусель</carouselViewName>
     <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
-    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
+    <subset.carouselViewName>Carousel sub</subset.carouselViewName> <!-- NEED TRANSLATION -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Расширенная системная информация</systemViewExInfos>
     <yes>Да</yes>
@@ -70,6 +71,8 @@
     <none>Нет</none>
     <scanlines>Линии развертки</scanlines>
     <crt>Телевизионная трубка</crt>
+    <!-- Specific layout for systems -->
+    <!-- <system.theme>Tema</system.theme> -->
     <!-- add game info bar -->
     <gameBar>Информационная панель игры</gameBar>
     <!-- Layout for small screens -->

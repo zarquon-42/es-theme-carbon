@@ -20,9 +20,10 @@
     <!-- Κοινές απόψεις -->
     <tilesViewName>Μικρογραφίες</tilesViewName>
     <basicGridName>Πλέγμα</basicGridName>
+    <gameCarouselViewName>Καρουζέλ από κουτιά</gameCarouselViewName> <!-- NEED REVIEW -->
     <carouselViewName>Καρουσέλ</carouselViewName>
     <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
-    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
+    <subset.carouselViewName>Carousel sub</subset.carouselViewName> <!-- NEED TRANSLATION -->
     <!-- Επιλογή υποσυνόλου για εκτεταμένες πληροφορίες συστήματος -->
     <systemViewExInfos>Βελτιωμένες πληροφορίες συστήματος</systemViewExInfos>
     <yes>Ναι</yes>
@@ -70,6 +71,8 @@
     <none>Καμία</none>
     <scanlines>Σαρώσεις</scanlines>
     <crt>Tube TV</crt>
+    <!-- Specific layout for systems -->
+    <!-- <system.theme>Theme</system.theme> -->
     <!-- προσθήκη γραμμής πληροφοριών παιχνιδιού -->
     <gameBar>Γραμμή πληροφοριών παιχνιδιού</gameBar>
     <!-- Διάταξη για μικρές οθόνες -->

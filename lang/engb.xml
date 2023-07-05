@@ -20,7 +20,10 @@
     <!-- Common views  -->
     <tilesViewName>Miniatures</tilesViewName>
     <basicGridName>Grid</basicGridName>
+    <gameCarouselViewName>Carousel of boxes</gameCarouselViewName> <!-- NEED REVIEW -->
     <carouselViewName>Carousel</carouselViewName>
+    <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
+    <subset.carouselViewName>Carousel sub</subset.carouselViewName> <!-- NEED REVIEW -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Enhanced system information</systemViewExInfos>
     <yes>Yes</yes>
@@ -68,6 +71,8 @@
     <none>None</none>
     <scanlines>Scan Lines</scanlines>
     <crt>Tube TV</crt>
+    <!-- Specific layout for systems -->
+    <!-- <system.theme>Theme</system.theme> -->
     <!-- add game info bar -->
     <gameBar>Game information bar</gameBar>
     <!-- Layout for small screens -->

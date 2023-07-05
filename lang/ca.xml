@@ -20,9 +20,10 @@
     <!-- Common views  -->
     <tilesViewName>Miniatures</tilesViewName>
     <basicGridName>Quadrícula</basicGridName>
+    <gameCarouselViewName>Carrusel de caixes</gameCarouselViewName> <!-- NEED REVIEW -->
     <carouselViewName>Carrusel</carouselViewName>
     <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
-    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
+    <subset.carouselViewName>Carousel sub</subset.carouselViewName> <!-- NEED TRANSLATION -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Informació del sistema millorada</systemViewExInfos>
     <yes>Sí</yes>
@@ -70,6 +71,8 @@
     <none>Cap</none>
     <scanlines>Línies d'escaneig</scanlines>
     <crt>Tub de televisió</crt>
+    <!-- Specific layout for systems -->
+    <!-- <system.theme>Theme</system.theme> -->
     <!-- add game info bar -->
     <gameBar>Barra d'informació del joc</gameBar>
     <!-- Layout for small screens -->

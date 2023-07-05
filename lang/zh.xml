@@ -20,9 +20,10 @@
     <!-- Common views  -->
     <tilesViewName>缩略图</tilesViewName>
     <basicGridName>网格</basicGridName>
+    <gameCarouselViewName>箱子的旋转木马</gameCarouselViewName> <!-- NEED REVIEW -->
     <carouselViewName>旋转</carouselViewName>
     <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
-    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
+    <subset.carouselViewName>Carousel sub</subset.carouselViewName> <!-- NEED TRNSLATION -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>改善系统信息</systemViewExInfos>
     <yes>是</yes>
@@ -70,6 +71,8 @@
     <none>无</none>
     <scanlines>扫描线</scanlines>
     <crt>电子管电视</crt>
+    <!-- Specific layout for systems -->
+    <!-- <system.theme>Theme</system.theme> -->
     <!-- add game info bar -->
     <gameBar>游戏信息栏</gameBar>
     <!-- Layout for small screens -->

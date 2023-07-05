@@ -20,9 +20,10 @@
     <!-- Typowe widoki -->
     <tilesViewName>Miniatury</tilesViewName>
     <basicGridName>Siatka</basicGridName>
+    <gameCarouselViewName>Carrossel de caixas</gameCarouselViewName> <!-- NEED TRANSLATION -->
     <carouselViewName>Karuzela</carouselViewName>
     <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
-    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
+    <subset.carouselViewName>Carousel sub</subset.carouselViewName> <!-- NEED REVIEW -->
     <!-- Opcja rozszerzonych informacji systemowych -->
     <systemViewExInfos>Rozszerzone informacje o systemie</systemViewExInfos>
     <yes>Tak</yes>
@@ -70,6 +71,8 @@
     <none>Brak</none>
     <scanlines>Linie skanowania</scanlines>
     <crt>TV kineskopowy</crt>
+    <!-- Specific layout for systems -->
+    <!-- <system.theme>Theme</system.theme> -->
     <!-- dodaj pasek informacji o grze -->
     <gameBar>Pasek informacji o grze</gameBar>
     <!-- Układ dla małych ekranów -->

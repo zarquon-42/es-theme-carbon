@@ -20,9 +20,10 @@
     <!-- Common views  -->
     <tilesViewName>Miniaturen</tilesViewName>
     <basicGridName>Rooster</basicGridName>
+    <gameCarouselViewName>Carrousel van dozen</gameCarouselViewName> <!-- NEED REVIEW -->
     <carouselViewName>Carrousel</carouselViewName>
     <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
-    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
+    <subset.carouselViewName>Carousel sub</subset.carouselViewName> <!-- NEED REVIEW -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Verbeterde systeeminformatie</systemViewExInfos>
     <yes>Ja</yes>
@@ -70,6 +71,8 @@
     <none>Geen</none>
     <scanlines>Scanlijnen</scanlines>
     <crt>Buis-tv</crt>
+    <!-- Specific layout for systems -->
+    <!-- <system.theme>Theme</system.theme> -->
     <!-- add game info bar -->
     <gameBar>Informatiebalk spel</gameBar>
     <!-- Layout for small screens -->
