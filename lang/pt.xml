@@ -17,18 +17,18 @@
     <violet>Violeta</violet>
     <orange>Laranja</orange>
     <gray>Cinza</gray>
-    <!-- Common views  -->
+    <!-- Common views / Gamelist view -->
     <tilesViewName>Miniaturas</tilesViewName>
     <basicGridName>Grelha</basicGridName>
-    <gameCarouselViewName>Carrossel de caixas</gameCarouselViewName>
-    <carouselViewName>Carrossel</carouselViewName>
+    <gameCarouselViewName>Carrossel</gameCarouselViewName>
+    <carouselViewName>Carrossel de caixas</carouselViewName>
     <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
-    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
+    <system.carouselViewName>Carrossel sub</system.carouselViewName> <!-- NEED REVIEW -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Informações de sistema aprimoradas</systemViewExInfos>
     <yes>Sim</yes>
     <no>Não</no>
-    <!-- Subset options for screen -->
+    <!-- Subset options for screen / System view -->
     <systemViewName>Vista do sistema</systemViewName>
     <systemview.darkened>Sombreado</systemview.darkened>
     <systemview.horizontal>Horizontal</systemview.horizontal>
@@ -41,6 +41,7 @@
     <systemBackgroundName>Fundo</systemBackgroundName>
     <systembackground.miniconsoles>Mini video </systembackground.miniconsoles>
     <animatedBackground>Animações de fundo</animatedBackground>
+    <animatedCovers>Caixas aleatórias</animatedCovers>
     <!-- change default for small screens -->
     <systembackground.consoles>Jogos de vídeo</systembackground.consoles>
     <systembackground.miniconsoles>Mini-jogos de vídeo</systembackground.miniconsoles>

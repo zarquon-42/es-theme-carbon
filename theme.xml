@@ -62,12 +62,10 @@ languages and missing systems (batocera v36): by maioni
     <animatedInfobar>Animated preview bar</animatedInfobar>
   </variables>
   <include lang="ar">./lang/ar.xml</include>
-  <include region="br">./lang/br.xml</include>
   <include lang="ca">./lang/ca.xml</include>
   <include lang="de">./lang/de.xml</include>
   <include lang="en">./lang/en.xml</include>
   <include lang="engb">./lang/engb.xml</include>
-  <include lang="en_GB">./lang/engb.xml</include>
   <include lang="es">./lang/es.xml</include>
   <include lang="eu">./lang/en.xml</include>
   <include lang="fr">./lang/fr.xml</include>
@@ -78,8 +76,7 @@ languages and missing systems (batocera v36): by maioni
   <include lang="nl">./lang/nl.xml</include>
   <include lang="pl">./lang/pl.xml</include>
   <include lang="pt">./lang/pt.xml</include>
-  <include lang="pt_BR">./lang/pt_BR.xml</include>
-  <include lang="ptbr">./lang/ptbr.xml</include>
+  <include region="select">./lang/br.xml</include>
   <include lang="ru">./lang/ru.xml</include>
   <include lang="uk">./lang/ru.xml</include>
   <include lang="zh">./lang/zh.xml</include> 

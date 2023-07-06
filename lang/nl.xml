@@ -41,6 +41,7 @@
     <systemBackgroundName>Achtergrond</systemBackgroundName>
     <systembackground.miniconsoles>Minivideo</systembackground.miniconsoles>
     <animatedBackground>Achtergrond animaties</animatedBackground>
+    <animatedCovers>Willekeurige dozen</animatedCovers>
     <!-- change default for small screens -->
     <systembackground.consoles>Video spelletjes</systembackground.consoles>
     <systembackground.miniconsoles>Minivideospelletjes</systembackground.miniconsoles>

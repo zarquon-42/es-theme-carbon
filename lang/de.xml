@@ -41,6 +41,7 @@
     <systemBackgroundName>Hintergrund</systemBackgroundName>
     <systembackground.miniconsoles>Minivideo</systembackground.miniconsoles>
     <animatedBackground>Hintergrundanimationen</animatedBackground>
+    <animatedCovers>Zufällige Spielbox</animatedCovers>
     <!-- Standardeinstellung für kleine Bildschirme ändern -->
     <systembackground.consoles>Videospiele</systembackground.consoles>
     <systembackground.miniconsoles>Mini-Videospiele</systembackground.miniconsoles>

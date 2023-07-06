@@ -41,6 +41,7 @@
     <systemBackgroundName>背景</systemBackgroundName>
     <systembackground.miniconsoles>ミニビデオ</systembackground.miniconsoles>
     <animatedBackground>背景アニメーション</animatedBackground>
+    <animatedCovers>ランダムボックス</animatedCovers>
     <!-- change default for small screens -->
     <systembackground.consoles>ビデオゲーム</systembackground.consoles>
     <systembackground.miniconsoles>ミニゲーム</systembackground.miniconsoles>

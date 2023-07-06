@@ -2,7 +2,7 @@
 <theme>
   <formatVersion>7</formatVersion>
   <!-- Brazilian Portuguese -->
-  <variables region="br" lang="pt_BR">
+  <variables lang="pt_BR">
     <dateFormat>%d/%m/%Y</dateFormat>
     <!-- Region -->
     <subset.region>Região</subset.region>
@@ -41,6 +41,7 @@
     <systemBackgroundName>Plano de fundo</systemBackgroundName>
     <systembackground.miniconsoles>Mini video</systembackground.miniconsoles>
     <animatedBackground>Animações do plano de fundo</animatedBackground>
+    <animatedCovers>Caixas aleatórias</animatedCovers>
     <!-- change default for small screens -->
     <systembackground.consoles>Videogames</systembackground.consoles>
     <systembackground.miniconsoles>Mini videogames</systembackground.miniconsoles>

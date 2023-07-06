@@ -41,6 +41,7 @@
     <systemBackgroundName>Arrière-plan</systemBackgroundName>
     <systembackground.miniconsoles>Mini video</systembackground.miniconsoles>
     <animatedBackground>Animations de plan de fond</animatedBackground>
+    <animatedCovers>Boîtes aléatoires</animatedCovers>
     <!-- change default for small screens -->
     <systembackground.consoles>Jeux vidéo</systembackground.consoles>
     <systembackground.miniconsoles>Mini jeux vidéo</systembackground.miniconsoles>

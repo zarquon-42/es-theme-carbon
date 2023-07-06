@@ -41,6 +41,7 @@
     <systemBackgroundName>Фон</systemBackgroundName>
     <systembackground.miniconsoles>міні відео</systembackground.miniconsoles>
     <animatedBackground>фонові анімації</animatedBackground>
+    <animatedCovers>Випадкові ящики</animatedCovers>
     <!-- change default for small screens -->
     <systembackground.consoles>відео ігри</systembackground.consoles>
     <systembackground.miniconsoles>міні відеоігри</systembackground.miniconsoles>

@@ -23,7 +23,7 @@
     <gameCarouselViewName>Carousel of boxes</gameCarouselViewName> <!-- NEED REVIEW -->
     <carouselViewName>Carousel</carouselViewName>
     <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
-    <subset.carouselViewName>Carousel sub</subset.carouselViewName> <!-- NEED TRANSLATION -->
+    <subset.carouselViewName>Carousel sub</subset.carouselViewName> <!-- NEED REVIEW -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Enhanced system information</systemViewExInfos>
     <yes>Yes</yes>
@@ -41,6 +41,7 @@
     <systemBackgroundName>Background</systemBackgroundName>
     <systembackground.miniconsoles>Mini video</systembackground.miniconsoles>
     <animatedBackground>Background animations</animatedBackground>
+    <animatedCovers>Random boxes</animatedCovers>
     <!-- change default for small screens -->
     <systembackground.consoles>Video games</systembackground.consoles>
     <systembackground.miniconsoles>Mini video games</systembackground.miniconsoles>

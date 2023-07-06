@@ -41,6 +41,7 @@
     <systemBackgroundName>배경</systemBackgroundName>
     <systembackground.miniconsoles>미니 비디오</systembackground.miniconsoles>
     <animatedBackground>배경 애니메이션</animatedBackground>
+    <animatedCovers>랜덤 박스</animatedCovers>
     <!-- change default for small screens -->
     <systembackground.consoles>비디오 게임</systembackground.consoles>
     <systembackground.miniconsoles>미니 비디오 게임</systembackground.miniconsoles>

@@ -41,6 +41,7 @@
     <systemBackgroundName>Φόντο</systemBackgroundName>
     <systembackground.miniconsoles>Μίνι βίντεο</systembackground.miniconsoles>
     <animatedBackground>Κινούμενα σχέδια στο παρασκήνιο</animatedBackground>
+    <animatedCovers>Τυχαία κουτιά</animatedCovers>
     <!-- αλλαγή προεπιλογής για μικρές οθόνες -->
     <systembackground.consoles>Βιντεοπαιχνίδια</systembackground.consoles>
     <systembackground.miniconsoles>Μίνι βιντεοπαιχνίδια</systembackground.miniconsoles>

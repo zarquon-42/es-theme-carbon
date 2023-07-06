@@ -41,6 +41,7 @@
     <systemBackgroundName>Fondo</systemBackgroundName>
     <systembackground.miniconsoles>Mini video</systembackground.miniconsoles>
     <animatedBackground>Animaciones de fondo</animatedBackground>
+    <animatedCovers>Cajas aleatorias</animatedCovers>
     <!-- change default for small screens -->
     <systembackground.consoles>Consolas</systembackground.consoles>
     <systembackground.miniconsoles>Mini consolas</systembackground.miniconsoles>

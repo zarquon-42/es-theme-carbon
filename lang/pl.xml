@@ -41,6 +41,7 @@
     <systemBackgroundName>Tło</systemBackgroundName>
     <systembackground.miniconsoles>Mini wideo</systembackground.miniconsoles>
     <animatedBackground>Animacje</animatedBackground>
+    <animatedCovers>Losowe pudełka</animatedCovers>
     <!-- zmień domyślne dla małych ekranów -->
     <systembackground.consoles>Gry wideo</systembackground.consoles>
     <systembackground.miniconsoles>Mini gry wideo</systembackground.miniconsoles>

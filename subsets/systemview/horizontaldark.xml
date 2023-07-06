@@ -33,17 +33,17 @@
       <path>./../../art/logos/eu/${system.theme}.svg</path>
       <path>./../../art/logos/eu/${system.theme}-w.svg</path>
     </image>
-    <image name="logo" region="us">
-      <path>./../../art/logos/us/${system.theme}.png</path>
-      <path>./../../art/logos/us/${system.theme}-w.png</path>
-      <path>./../../art/logos/us/${system.theme}.svg</path>
-      <path>./../../art/logos/us/${system.theme}-w.svg</path>
-    </image>
     <image name="logo" region="jp">
       <path>./../../art/logos/jp/${system.theme}.png</path>
       <path>./../../art/logos/jp/${system.theme}-w.png</path>
       <path>./../../art/logos/jp/${system.theme}.svg</path>
       <path>./../../art/logos/jp/${system.theme}-w.svg</path>
+    </image>
+    <image name="logo" region="us">
+      <path>./../../art/logos/us/${system.theme}.png</path>
+      <path>./../../art/logos/us/${system.theme}-w.png</path>
+      <path>./../../art/logos/us/${system.theme}.svg</path>
+      <path>./../../art/logos/us/${system.theme}-w.svg</path>
     </image>
     <image name="carousel-topline" extra="true" tinyScreen="false">
       <path>./../../art/white.png</path>

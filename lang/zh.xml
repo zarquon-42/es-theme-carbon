@@ -41,6 +41,7 @@
     <systemBackgroundName>背景</systemBackgroundName>
     <systembackground.miniconsoles>迷你视频</systembackground.miniconsoles>
     <animatedBackground>背景动画</animatedBackground>
+    <animatedCovers>随机盒子</animatedCovers>
     <!-- change default for small screens -->
     <systembackground.consoles>视频游戏</systembackground.consoles>
     <systembackground.miniconsoles>迷你视频游戏</systembackground.miniconsoles>

@@ -41,6 +41,7 @@
     <systemBackgroundName>Фон</systemBackgroundName>
     <systembackground.miniconsoles>Мини-видео</systembackground.miniconsoles>
     <animatedBackground>Фоновые анимации</animatedBackground>
+    <animatedCovers>Случайные коробки</animatedCovers>
     <!-- change default for small screens -->
     <systembackground.consoles>Видеоигры</systembackground.consoles>
     <systembackground.miniconsoles>Мини-видеоигры</systembackground.miniconsoles>

@@ -2,7 +2,7 @@
 <theme>
   <formatVersion>7</formatVersion>
   <!-- Brazilian Portuguese -->
-  <variables region="br" lang="pt_BR">
+  <variables region="br">
     <dateFormat>%d/%m/%Y</dateFormat>
     <!-- Region -->
     <subset.region>Região</subset.region>
@@ -23,7 +23,7 @@
     <gameCarouselViewName>Carrossel de caixas</gameCarouselViewName>
     <carouselViewName>Carrossel</carouselViewName>
     <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
-    <subset.carouselViewName>Carousel sub</subset.carouselViewName> <!-- NEED TRANSLATION -->
+    <subset.carouselViewName>Carrossel sub</subset.carouselViewName> <!-- NEED REVIEW -->
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Informações de sistema aprimoradas</systemViewExInfos>
     <yes>Sim</yes>

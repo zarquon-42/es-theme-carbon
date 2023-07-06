@@ -41,6 +41,7 @@
     <systemBackgroundName>الخلفية</systemBackgroundName>
     <systembackground.miniconsoles>فيديو صغير</systembackground.miniconsoles>
     <animatedBackground>الرسوم المتحركة في الخلفية</animatedBackground>
+    <animatedCovers>مربعات عشوائية</animatedCovers>
     <!-- change default for small screens -->
     <systembackground.consoles>ألعاب الفيديو</systembackground.consoles>
     <systembackground.miniconsoles>ألعاب الفيديو المصغرة</systembackground.miniconsoles>
