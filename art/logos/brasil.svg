@@ -255,422 +255,6 @@
     <g
        id="g7696">
       <g
-         transform="translate(417.87868,5.8334847)"
-         clip-path="url(#clipPath7692)"
-         id="g7633">
-        <rect
-           style="fill:#00923f"
-           id="field"
-           x="-156.07179"
-           y="250.95575"
-           width="350.00009"
-           height="233.33304" />
-        <path
-           style="fill:#f8c300"
-           id="rhombus"
-           d="M -126.32181,367.62227 L 18.928232,455.95549 L 164.17827,367.62227 L 18.928232,279.28904 L -126.32181,367.62227 z" />
-        <g
-           id="g4332"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-275.79492,412.42913)">
-          <circle
-             transform="translate(3532.1544,-545.92803)"
-             r="735"
-             id="circle"
-             cx="0"
-             cy="0"
-             style="fill:#28166f"
-             sodipodi:ry="735"
-             sodipodi:rx="735"
-             sodipodi:cy="0"
-             sodipodi:cx="0" />
-          <path
-             transform="translate(3532.1544,-545.92803)"
-             clip-path="url(#clipcircle)"
-             d="M -674.52828,-291.89128 C -590.36315,-304.0649 -507.53744,-315 -420,-315 C 17.407691,-315 418.06909,-157.67042 728.48192,103.48647 C 730.93862,112.28908 705.45324,210.62782 700.91051,218.59587 C 403.57817,-47.911375 10.717996,-210 -420,-210 C -515.58817,-210 -619.66931,-199.89133 -711.11815,-184.51134 C -712.40811,-184.29439 -704.79165,-210.23732 -699.20405,-227.84369 C -696.27077,-237.08637 -686.36424,-263.27606 -687.03899,-263.16015"
-             id="band"
-             style="fill:#ffffff"
-             sodipodi:nodetypes="csccsssz" />
-        </g>
-        <use
-           style="fill:#00923f"
-           xlink:href="#O"
-           transform="matrix(8.2712208e-2,-9.6721544e-3,1.0155777e-2,7.8773413e-2,-34.14302,352.05022)"
-           id="use58"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#00923f"
-           xlink:href="#R"
-           transform="matrix(8.3130367e-2,-5.536217e-3,5.8130366e-3,7.9171659e-2,-26.771216,351.3742)"
-           id="use60"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#00923f"
-           xlink:href="#D"
-           transform="matrix(8.3320663e-2,-1.3851032e-3,1.4543605e-3,7.9352893e-2,-19.372376,351.06655)"
-           id="use62"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#00923f"
-           xlink:href="#E"
-           transform="matrix(8.3282593e-2,2.769805e-3,-2.9082996e-3,7.9316636e-2,-11.966749,351.12809)"
-           id="use64"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#00923f"
-           xlink:href="#M"
-           transform="matrix(8.3016246e-2,6.9171185e-3,-7.2629853e-3,7.9062973e-2,-4.5746769,351.55868)"
-           id="use66"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           height="2940"
-           width="4200"
-           y="0"
-           x="0"
-           style="fill:#00923f"
-           id="use68"
-           transform="matrix(8.2129691e-2,1.3440419e-2,-1.4112462e-2,7.8218636e-2,7.0523165,352.99195)"
-           xlink:href="#E_" />
-        <use
-           style="fill:#00923f"
-           xlink:href="#P"
-           transform="matrix(8.0678978e-2,1.9871403e-2,-2.0865005e-2,7.6837007e-2,18.514754,355.33725)"
-           id="use71"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#00923f"
-           xlink:href="#R"
-           transform="matrix(7.9476432e-2,2.3865501e-2,-2.5058814e-2,7.5691727e-2,25.633765,357.28139)"
-           id="use73"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#00923f"
-           xlink:href="#O"
-           transform="matrix(7.8056032e-2,2.7794199e-2,-2.9183953e-2,7.4338967e-2,32.636173,359.57769)"
-           id="use75"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#00923f"
-           xlink:href="#G"
-           transform="matrix(7.6421683e-2,3.1646714e-2,-3.3229099e-2,7.2782446e-2,39.502807,362.21987)"
-           id="use77"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#00923f"
-           xlink:href="#R"
-           transform="matrix(7.4577868e-2,3.5412486e-2,-3.7183166e-2,7.1026435e-2,46.214825,365.20069)"
-           id="use79"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#00923f"
-           xlink:href="#E"
-           transform="matrix(7.2529645e-2,3.9081178e-2,-4.1035298e-2,6.9075749e-2,52.753844,368.51198)"
-           id="use81"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#00923f"
-           xlink:href="#S"
-           transform="matrix(7.0282629e-2,4.2642779e-2,-4.4774985e-2,6.6935737e-2,59.101929,372.14466)"
-           id="use83"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#00923f"
-           xlink:href="#S"
-           transform="matrix(6.7842977e-2,4.6087482e-2,-4.8391929e-2,6.4612262e-2,65.241697,376.08877)"
-           id="use85"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#00923f"
-           xlink:href="#O"
-           transform="matrix(6.5217367e-2,4.940586e-2,-5.187623e-2,6.2111685e-2,71.156308,380.33351)"
-           id="use87"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           height="2940"
-           width="4200"
-           y="0"
-           x="0"
-           style="fill:#ffffff"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-31.9036,358.62539)"
-           xlink:href="#star1"
-           id="Alpha_Canis_Minoris" />
-        <use
-           style="fill:#ffffff"
-           id="Alpha_Canis_Majoris"
-           xlink:href="#star1"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-26.486923,383.14916)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Beta_Canis_Majoris"
-           xlink:href="#star3"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-33.986924,388.38725)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Gamma_Canis_Majoris"
-           xlink:href="#star4"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-20.486919,379.57774)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Delta_Canis_Majoris"
-           xlink:href="#star2"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-13.736926,388.94281)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Epsilon_Canis_Majoris"
-           xlink:href="#star2"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-15.570247,394.73645)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           height="2940"
-           width="4200"
-           y="0"
-           x="0"
-           style="fill:#ffffff"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,37.096419,351.00635)"
-           xlink:href="#star1"
-           id="Alpha_Virginis" />
-        <use
-           style="fill:#ffffff"
-           id="Alpha_Scorpii"
-           xlink:href="#star1"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,61.013096,389.57773)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Beta_Scorpii"
-           xlink:href="#star3"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,69.513097,390.13328)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Epsilon_Scorpii"
-           xlink:href="#star2"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,63.513097,394.73645)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Theta_Scorpii"
-           xlink:href="#star2"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,48.763093,406.95866)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Iota_Scorpii"
-           xlink:href="#star3"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,48.67976,412.83166)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Kappa_Scorpii"
-           xlink:href="#star3"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,54.846428,402.35549)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Lambda_Scorpii"
-           xlink:href="#star2"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,59.763095,399.41899)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Mu_Scorpii"
-           xlink:href="#star3"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,48.513092,401.24437)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Alpha_Hydrae"
-           xlink:href="#star2"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-5.236916,371.48251)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Gamma_Hydrae"
-           xlink:href="#star3"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,34.763093,366.16506)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Alpha_Crucis"
-           xlink:href="#star1"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,18.096415,395.29201)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Beta_Crucis"
-           xlink:href="#star2"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,25.179751,383.70473)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Gamma_Crucis"
-           xlink:href="#star2"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,18.096415,378.46663)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Delta_Crucis"
-           xlink:href="#star3"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,11.929749,383.70473)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Epsilon_Crucis"
-           xlink:href="#star4"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,15.013082,387.75233)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Alpha_Trianguli_Australe"
-           xlink:href="#star2"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,36.429751,408.38722)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Beta_Trianguli_Australe"
-           xlink:href="#star3"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,41.679766,403.22851)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           style="fill:#ffffff"
-           id="Gamma_Trianguli_Australe"
-           xlink:href="#star3"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,31.596419,401.79994)"
-           x="0"
-           y="0"
-           width="4200"
-           height="2940" />
-        <use
-           height="2940"
-           width="4200"
-           y="0"
-           x="0"
-           style="fill:#ffffff"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-6.4869281,400.05391)"
-           xlink:href="#star1"
-           id="Alpha_Carinae" />
-        <use
-           height="2940"
-           width="4200"
-           y="0"
-           x="0"
-           style="fill:#ffffff"
-           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,18.096415,414.73642)"
-           xlink:href="#star5"
-           id="Sigma_Octantis" />
-      </g>
-      <g
          clip-path="url(#clipPath7688)"
          transform="matrix(0.5833325,0,0,0.5833325,261.80689,256.78927)"
          id="g3081">
@@ -1724,6 +1308,422 @@
            id="path1859"
            d="M 198.87553,241.79759 C 198.44516,241.37249 199.02899,240.76924 199.46024,241.21374 L 200.29981,242.05423 L 199.71511,242.63808 L 198.87553,241.79759"
            style="fill:#000000;fill-rule:evenodd;stroke:none" />
+      </g>
+      <g
+         transform="translate(417.87868,5.8334847)"
+         clip-path="url(#clipPath7692)"
+         id="g7633">
+        <rect
+           style="fill:#00923f"
+           id="field"
+           x="-156.07179"
+           y="250.95575"
+           width="350.00009"
+           height="233.33304" />
+        <path
+           style="fill:#f8c300"
+           id="rhombus"
+           d="M -126.32181,367.62227 L 18.928232,455.95549 L 164.17827,367.62227 L 18.928232,279.28904 L -126.32181,367.62227 z" />
+        <g
+           id="g4332"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-275.79492,412.42913)">
+          <circle
+             transform="translate(3532.1544,-545.92803)"
+             r="735"
+             id="circle"
+             cx="0"
+             cy="0"
+             style="fill:#28166f"
+             sodipodi:ry="735"
+             sodipodi:rx="735"
+             sodipodi:cy="0"
+             sodipodi:cx="0" />
+          <path
+             transform="translate(3532.1544,-545.92803)"
+             clip-path="url(#clipcircle)"
+             d="M -674.52828,-291.89128 C -590.36315,-304.0649 -507.53744,-315 -420,-315 C 17.407691,-315 418.06909,-157.67042 728.48192,103.48647 C 730.93862,112.28908 705.45324,210.62782 700.91051,218.59587 C 403.57817,-47.911375 10.717996,-210 -420,-210 C -515.58817,-210 -619.66931,-199.89133 -711.11815,-184.51134 C -712.40811,-184.29439 -704.79165,-210.23732 -699.20405,-227.84369 C -696.27077,-237.08637 -686.36424,-263.27606 -687.03899,-263.16015"
+             id="band"
+             style="fill:#ffffff"
+             sodipodi:nodetypes="csccsssz" />
+        </g>
+        <use
+           style="fill:#00923f"
+           xlink:href="#O"
+           transform="matrix(8.2712208e-2,-9.6721544e-3,1.0155777e-2,7.8773413e-2,-34.14302,352.05022)"
+           id="use58"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#00923f"
+           xlink:href="#R"
+           transform="matrix(8.3130367e-2,-5.536217e-3,5.8130366e-3,7.9171659e-2,-26.771216,351.3742)"
+           id="use60"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#00923f"
+           xlink:href="#D"
+           transform="matrix(8.3320663e-2,-1.3851032e-3,1.4543605e-3,7.9352893e-2,-19.372376,351.06655)"
+           id="use62"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#00923f"
+           xlink:href="#E"
+           transform="matrix(8.3282593e-2,2.769805e-3,-2.9082996e-3,7.9316636e-2,-11.966749,351.12809)"
+           id="use64"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#00923f"
+           xlink:href="#M"
+           transform="matrix(8.3016246e-2,6.9171185e-3,-7.2629853e-3,7.9062973e-2,-4.5746769,351.55868)"
+           id="use66"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           height="2940"
+           width="4200"
+           y="0"
+           x="0"
+           style="fill:#00923f"
+           id="use68"
+           transform="matrix(8.2129691e-2,1.3440419e-2,-1.4112462e-2,7.8218636e-2,7.0523165,352.99195)"
+           xlink:href="#E_" />
+        <use
+           style="fill:#00923f"
+           xlink:href="#P"
+           transform="matrix(8.0678978e-2,1.9871403e-2,-2.0865005e-2,7.6837007e-2,18.514754,355.33725)"
+           id="use71"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#00923f"
+           xlink:href="#R"
+           transform="matrix(7.9476432e-2,2.3865501e-2,-2.5058814e-2,7.5691727e-2,25.633765,357.28139)"
+           id="use73"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#00923f"
+           xlink:href="#O"
+           transform="matrix(7.8056032e-2,2.7794199e-2,-2.9183953e-2,7.4338967e-2,32.636173,359.57769)"
+           id="use75"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#00923f"
+           xlink:href="#G"
+           transform="matrix(7.6421683e-2,3.1646714e-2,-3.3229099e-2,7.2782446e-2,39.502807,362.21987)"
+           id="use77"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#00923f"
+           xlink:href="#R"
+           transform="matrix(7.4577868e-2,3.5412486e-2,-3.7183166e-2,7.1026435e-2,46.214825,365.20069)"
+           id="use79"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#00923f"
+           xlink:href="#E"
+           transform="matrix(7.2529645e-2,3.9081178e-2,-4.1035298e-2,6.9075749e-2,52.753844,368.51198)"
+           id="use81"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#00923f"
+           xlink:href="#S"
+           transform="matrix(7.0282629e-2,4.2642779e-2,-4.4774985e-2,6.6935737e-2,59.101929,372.14466)"
+           id="use83"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#00923f"
+           xlink:href="#S"
+           transform="matrix(6.7842977e-2,4.6087482e-2,-4.8391929e-2,6.4612262e-2,65.241697,376.08877)"
+           id="use85"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#00923f"
+           xlink:href="#O"
+           transform="matrix(6.5217367e-2,4.940586e-2,-5.187623e-2,6.2111685e-2,71.156308,380.33351)"
+           id="use87"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           height="2940"
+           width="4200"
+           y="0"
+           x="0"
+           style="fill:#ffffff"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-31.9036,358.62539)"
+           xlink:href="#star1"
+           id="Alpha_Canis_Minoris" />
+        <use
+           style="fill:#ffffff"
+           id="Alpha_Canis_Majoris"
+           xlink:href="#star1"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-26.486923,383.14916)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Beta_Canis_Majoris"
+           xlink:href="#star3"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-33.986924,388.38725)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Gamma_Canis_Majoris"
+           xlink:href="#star4"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-20.486919,379.57774)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Delta_Canis_Majoris"
+           xlink:href="#star2"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-13.736926,388.94281)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Epsilon_Canis_Majoris"
+           xlink:href="#star2"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-15.570247,394.73645)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           height="2940"
+           width="4200"
+           y="0"
+           x="0"
+           style="fill:#ffffff"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,37.096419,351.00635)"
+           xlink:href="#star1"
+           id="Alpha_Virginis" />
+        <use
+           style="fill:#ffffff"
+           id="Alpha_Scorpii"
+           xlink:href="#star1"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,61.013096,389.57773)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Beta_Scorpii"
+           xlink:href="#star3"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,69.513097,390.13328)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Epsilon_Scorpii"
+           xlink:href="#star2"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,63.513097,394.73645)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Theta_Scorpii"
+           xlink:href="#star2"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,48.763093,406.95866)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Iota_Scorpii"
+           xlink:href="#star3"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,48.67976,412.83166)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Kappa_Scorpii"
+           xlink:href="#star3"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,54.846428,402.35549)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Lambda_Scorpii"
+           xlink:href="#star2"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,59.763095,399.41899)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Mu_Scorpii"
+           xlink:href="#star3"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,48.513092,401.24437)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Alpha_Hydrae"
+           xlink:href="#star2"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-5.236916,371.48251)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Gamma_Hydrae"
+           xlink:href="#star3"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,34.763093,366.16506)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Alpha_Crucis"
+           xlink:href="#star1"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,18.096415,395.29201)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Beta_Crucis"
+           xlink:href="#star2"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,25.179751,383.70473)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Gamma_Crucis"
+           xlink:href="#star2"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,18.096415,378.46663)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Delta_Crucis"
+           xlink:href="#star3"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,11.929749,383.70473)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Epsilon_Crucis"
+           xlink:href="#star4"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,15.013082,387.75233)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Alpha_Trianguli_Australe"
+           xlink:href="#star2"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,36.429751,408.38722)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Beta_Trianguli_Australe"
+           xlink:href="#star3"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,41.679766,403.22851)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           style="fill:#ffffff"
+           id="Gamma_Trianguli_Australe"
+           xlink:href="#star3"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,31.596419,401.79994)"
+           x="0"
+           y="0"
+           width="4200"
+           height="2940" />
+        <use
+           height="2940"
+           width="4200"
+           y="0"
+           x="0"
+           style="fill:#ffffff"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,-6.4869281,400.05391)"
+           xlink:href="#star1"
+           id="Alpha_Carinae" />
+        <use
+           height="2940"
+           width="4200"
+           y="0"
+           x="0"
+           style="fill:#ffffff"
+           transform="matrix(8.3333353e-2,0,0,7.9364979e-2,18.096415,414.73642)"
+           xlink:href="#star5"
+           id="Sigma_Octantis" />
       </g>
     </g>
   </g>
