@@ -30,12 +30,15 @@
       <minSize>1 1</minSize>
       <zIndex>12</zIndex>
     </image>
-    <image name="backgroundMachines" extra="true" region="eu"/>
-    <image name="backgroundMachines" extra="true" region="us">
-      <path>./../../art/background/us/${system.theme}.jpg</path>
+    <image name="backgroundMachines" extra="true" region="br">
+      <path>./../../art/background/br/${system.theme}.jpg</path>
     </image>
+    <image name="backgroundMachines" extra="true" region="eu"/>
     <image name="backgroundMachines" extra="true" region="jp">
       <path>./../../art/background/jp/${system.theme}.jpg</path>
+    </image>
+    <image name="backgroundMachines" extra="true" region="us">
+      <path>./../../art/background/us/${system.theme}.jpg</path>
     </image>
     <image name="ControllerOverlay" extra="true">
       <visible>false</visible>
