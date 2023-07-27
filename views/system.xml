@@ -40,6 +40,7 @@ originally based on: "simple" by nils bonenberger
       <linearSmooth>true</linearSmooth>
     </image>    
     <!-- ui items listed into region theme settings -->
+    <image name="logo" region="eu"/>
     <image name="logo" region="br">
       <path>./../art/logos/br/${system.theme}.png</path>
       <path>./../art/logos/br/${system.theme}.svg</path>
