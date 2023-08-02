@@ -83,18 +83,24 @@ originally based on: "simple" by nils bonenberger
       <path>./art/logos/collections/${system.theme}-w.png</path>
       <path>./art/logos/collections/${system.theme}-w.svg</path>
     </image>
+    <image name="logo" region="eu"/>
     <image name="logo" region="br">
 		  <path>./art/logos/br/${system.theme}.png</path>
 			<path>./art/logos/br/${system.theme}.svg</path>
+      <path>./art/logos/br/${system.theme}-w.png</path>
+      <path>./art/logos/br/${system.theme}-w.svg</path>
 		</image>
-    <image name="logo" region="eu"/>
     <image name="logo" region="us">
 		  <path>./art/logos/us/${system.theme}.png</path>
 			<path>./art/logos/us/${system.theme}.svg</path>
+      <path>./art/logos/us/${system.theme}-w.png</path>
+      <path>./art/logos/us/${system.theme}-w.svg</path>
 		</image>
     <image name="logo" region="jp">
 		  <path>./art/logos/jp/${system.theme}.png</path>
 			<path>./art/logos/jp/${system.theme}.svg</path>
+      <path>./art/logos/jp/${system.theme}-w.png</path>
+      <path>./art/logos/jp/${system.theme}-w.svg</path>
 		</image>
 		    
     <text name="folderpath">

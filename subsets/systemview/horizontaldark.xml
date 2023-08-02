@@ -17,33 +17,28 @@
       <logoSize verticalScreen="true">0.35 0.1</logoSize>
       <maxLogoCount verticalScreen="true">1</maxLogoCount>
     </carousel>
-    <image name="logo">
+    <image name="logo">      
       <path>./../../art/logos/${system.theme}-w.png</path>
       <path>./../../art/logos/${system.theme}-w.svg</path>
     </image>
+    <image name="logo" region="eu"/>
     <image name="logo" region="br">
       <path>./../../art/logos/br/${system.theme}.png</path>
       <path>./../../art/logos/br/${system.theme}-w.png</path>
       <path>./../../art/logos/br/${system.theme}.svg</path>
       <path>./../../art/logos/br/${system.theme}-w.svg</path>
     </image>
-    <image name="logo" region="eu">
-      <path>./../../art/logos/eu/${system.theme}.png</path>
-      <path>./../../art/logos/eu/${system.theme}-w.png</path>
-      <path>./../../art/logos/eu/${system.theme}.svg</path>
-      <path>./../../art/logos/eu/${system.theme}-w.svg</path>
+    <image name="logo" region="us">
+      <path>./../../art/logos/us/${system.theme}.png</path>
+      <path>./../../art/logos/us/${system.theme}-w.png</path>
+      <path>./../../art/logos/us/${system.theme}.svg</path>
+      <path>./../../art/logos/us/${system.theme}-w.svg</path>
     </image>
     <image name="logo" region="jp">
       <path>./../../art/logos/jp/${system.theme}.png</path>
       <path>./../../art/logos/jp/${system.theme}-w.png</path>
       <path>./../../art/logos/jp/${system.theme}.svg</path>
       <path>./../../art/logos/jp/${system.theme}-w.svg</path>
-    </image>
-    <image name="logo" region="us">
-      <path>./../../art/logos/us/${system.theme}.png</path>
-      <path>./../../art/logos/us/${system.theme}-w.png</path>
-      <path>./../../art/logos/us/${system.theme}.svg</path>
-      <path>./../../art/logos/us/${system.theme}-w.svg</path>
     </image>
     <image name="carousel-topline" extra="true" tinyScreen="false">
       <path>./../../art/white.png</path>
