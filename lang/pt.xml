@@ -80,7 +80,7 @@
     <optimizesmallscreensSubsetName>Optimizar para ecrãs pequenos</optimizesmallscreensSubsetName>
     <!-- Subset options for grid views -->
     <videoboxesSubsetName>Mostrar vídeo em modo de caixa</videoboxesSubsetName>
-    <zoomboxesSubsetName>Caixas de zoom</zoomboxesSubsetName>
+    <zoomboxesSubsetName>Ampliar as caixas de jogo</zoomboxesSubsetName>
     <orientationSubsetName>Orientação</orientationSubsetName>
     <vertical>Vertical</vertical>
     <horizontal>Horizontal</horizontal>
