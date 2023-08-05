@@ -65,7 +65,11 @@ languages and missing systems (batocera v36): by maioni
   <include lang="ca">./lang/ca.xml</include>
   <include lang="de">./lang/de.xml</include>
   <include lang="en">./lang/en.xml</include>
+<<<<<<< HEAD
   <include lang="en_GB">./lang/engb.xml</include>
+=======
+  <include lang="en_GB">./lang/en_GB.xml</include>
+>>>>>>> c972d148 (Restore en_GB and pt_BR languages)
   <include lang="es">./lang/es.xml</include>
   <include lang="eu">./lang/en.xml</include>
   <include lang="fr">./lang/fr.xml</include>
@@ -76,7 +80,12 @@ languages and missing systems (batocera v36): by maioni
   <include lang="nl">./lang/nl.xml</include>
   <include lang="pl">./lang/pl.xml</include>
   <include lang="pt">./lang/pt.xml</include>
+<<<<<<< HEAD
   <include lang="pt_BR">./lang/br.xml</include>
+=======
+  <include lang="pt_BR">./lang/pt_BR.xml</include>
+  <include region="select">./lang/br.xml</include>
+>>>>>>> c972d148 (Restore en_GB and pt_BR languages)
   <include lang="ru">./lang/ru.xml</include>
   <include lang="uk">./lang/ru.xml</include>
   <include lang="zh">./lang/zh.xml</include> 
