@@ -61,6 +61,7 @@ originally based on: "simple" by nils bonenberger
       <iconUI>./../art/icons/UI.png</iconUI>
       <iconSound>./../art/icons/Sound.png</iconSound>
       <iconNetwork>./../art/icons/Network.png</iconNetwork>
+      <iconPlanemode>./../art/icons/Planemode.png</iconPlanemode>
       <iconScraper>./../art/icons/Scraper.png</iconScraper>
       <iconAdvanced>./../art/icons/Advanced.png</iconAdvanced>
       <iconQuit>./../art/icons/Quit.png</iconQuit>
