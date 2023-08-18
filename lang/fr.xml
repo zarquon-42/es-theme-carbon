@@ -40,7 +40,7 @@
     <!-- Subset option for System view background -->
     <systemBackgroundName>Arrière-plan</systemBackgroundName>
     <systembackground.miniconsoles>Mini vidéo</systembackground.miniconsoles>
-    <animatedBackground>Animations de plan de fond</animatedBackground>
+    <animatedBackground>Animation du fond</animatedBackground>
     <animatedCovers>Boîtes aléatoires</animatedCovers>
     <!-- change default for small screens -->
     <systembackground.consoles>Consoles</systembackground.consoles>
