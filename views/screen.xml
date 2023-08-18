@@ -29,6 +29,7 @@ originally based on: "simple" by nils bonenberger
       <!-- controllers -->
       <imagePath>./art/gamepad.svg</imagePath>
       <gunPath>./art/gun.svg</gunPath>
+      <wheelPath>./art/wheel.svg</wheelPath>
       <activityColor>A0A0FFC0</activityColor>
       <hotkeyColor>FFA0A0C0</hotkeyColor>
       <!-- wifi 
