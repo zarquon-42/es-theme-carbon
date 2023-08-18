@@ -54,6 +54,7 @@ originally based on: "simple" by nils bonenberger
       <at50>./art/battery/50.svg</at50>
       <at25>./art/battery/25.svg</at25>
       <empty>./art/battery/empty.svg</empty>
+      <planemodeIcon>./art/icons/Planemode.png</planemodeIcon>
       <!-- wifi -->
       <!--    <networkIcon>./art/icons/Network.png</networkIcon>-->
       <!--<networkIcon>none</networkIcon>-->
