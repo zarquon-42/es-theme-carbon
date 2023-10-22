@@ -51,6 +51,7 @@ languages and missing systems (batocera v36): by maioni
     <colored>Colored</colored>
     <subset.colorset>Colorset</subset.colorset>
     <subset.shader>Shader</subset.shader>
+    <subset.blurfx>Blur Effects</subset.blurfx>
     <glowSubsetName>Glow selection</glowSubsetName>
     <helpbuttons>Button location</helpbuttons>
     <xboxbuttons>Xbox buttons</xboxbuttons>
@@ -149,6 +150,12 @@ languages and missing systems (batocera v36): by maioni
   <include>./views/carousel.xml</include>
   <include>./views/tiles.xml</include>
   <include>./views/icons.xml</include>  
+
+  <!-- Subset option for blur effects -->
+  <subset name="blurfx" displayName="${subset.blurfx}" ifArch="windows,x86_64" tinyScreen="false">
+    <include name="yes" displayName="${yes}">./subsets/blurfx.xml</include>
+    <include name="no" displayName="${no}"/>
+  </subset>
 
   <!-- Subset options for help -->
   <subset name="helpsystem" displayName="${helpSubsetName}">

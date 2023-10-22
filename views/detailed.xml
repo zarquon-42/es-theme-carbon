@@ -50,7 +50,6 @@ originally based on: "simple" by nils bonenberger
       <roundCorners>0.02</roundCorners>
       <zIndex>30</zIndex>
       <defaultSnapshot>./../art/grid/defgame.png</defaultSnapshot>
-      <!--<shader>:/shaders/scanlines.glsl</shader>-->
     </video>
     <image name="background">
       <tile>false</tile>

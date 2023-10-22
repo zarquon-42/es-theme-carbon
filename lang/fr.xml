@@ -24,6 +24,7 @@
     <carouselViewName>Carrousel</carouselViewName>
     <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
     <subset.carouselViewName>Carousel sub</subset.carouselViewName> <!-- NEED TRANSLATION -->
+    <subset.blurfx>Effets de flou</subset.blurfx>
     <!-- Subset option for System extended informations -->
     <systemViewExInfos>Informations système améliorées</systemViewExInfos>
     <yes>Oui</yes>
