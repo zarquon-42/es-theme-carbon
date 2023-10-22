@@ -24,18 +24,12 @@
     -->
     <!-- Blurs darkened carousel background -->
     <shader name="blur" extra="true" ifSubset="systemview:darkened, systembackground:consoles|random video|random image|random fanart|random box">
-      <path>:/shaders/blur.glsl</path>
-      <pos>0 0.3837</pos>
-      <size>1 0.2325</size>
+      <path>./blurcrt.glsl</path>
+      <pos>0 0.3838</pos>
+      <size>1 0.2323</size>
       <zIndex>17</zIndex>
       <!-- uniform parameters -->
-      <blur>6</blur>
-    </shader>
-    <shader name="crt" extra="true" ifSubset="systemview:darkened, systembackground:consoles|random video|random image|random fanart|random box">
-      <path>:/shaders/crt.glsl</path>
-      <pos>0 0.3837</pos>
-      <size>1 0.2325</size>
-      <zIndex>19</zIndex>
+      <blur>8</blur>
     </shader>
     <carousel name="systemcarousel" ifSubset="systemview:darkened, systembackground:consoles|random video|random image|random fanart|random box">
       <color>00000040</color>
