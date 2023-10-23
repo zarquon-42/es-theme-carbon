@@ -1,30 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
-  <!-- Sample shader applied on the whole screen -->
-  <!--
-  <view name="screen">
-    <shader name="scanlines" extra="static">
-      <path>:/shaders/scanlines.glsl</path>
-      <pos>0 0</pos>
-      <size>1 1</size>
-      <zIndex>200</zIndex>
-    </shader>
-  </view>
-  -->
-  <view name="system">
-    <!-- Sample shader applied on image, with uniform parameter -->
-    <!--
-    <image name="logo">
+  <view name="menu">
+    <!-- Apply blur when a menu is opened -->
+    <menuBackground name="menubg">
       <shader>
-        <path>:/shaders/shadow.glsl</path>
-        <shadowOffset>4</shadowOffset>
+        <path>:/shaders/blur.glsl</path>
+        <blur>3</blur>
       </shader>
-    </image>
-    -->
+    </menuBackground>
+  </view>
+  <view name="system">
     <!-- Blurs darkened carousel background -->
     <shader name="blur" extra="true" ifSubset="systemview:darkened, systembackground:consoles|random video|random image|random fanart|random box">
       <path>./blurcrt.glsl</path>
+      <!-- Sample glslp multipass program -->
+      <!-- <path>:/shaders/kawase_blur.glslp</path> -->
       <pos>0 0.3838</pos>
       <size>1 0.2323</size>
       <zIndex>17</zIndex>
@@ -47,8 +38,26 @@
       <!-- uniform parameters -->
       <blur>6</blur>
     </shader>
+    <!-- Sample shader applied on image, with uniform parameter -->
+    <!--
+    <image name="logo">
+      <shader>
+        <path>:/shaders/shadow.glsl</path>
+        <shadowOffset>4</shadowOffset>
+      </shader>
+    </image>
+    -->
   </view>
   <view name="basic, detailed, grid, gamecarousel">
+    <!-- Blurs help bar on gamelists -->
+    <shader name="gamelistblur" extra="true" ifHelpPrompts="true">
+      <path>:/shaders/blur.glsl</path>
+      <pos>0 0.935</pos>
+      <size>1 0.066</size>
+      <zIndex>49</zIndex>
+      <!-- uniform parameters -->
+      <blur>6</blur>
+    </shader>
     <!-- Sample shader applied on image, with uniform parameter -->
     <!--
     <image name="md_video">
@@ -60,14 +69,16 @@
       </shader>
     </image>
     -->
-    <!-- Blurs help bar on gamelists -->
-    <shader name="gamelistblur" extra="true" ifHelpPrompts="true">
-      <path>:/shaders/blur.glsl</path>
-      <pos>0 0.935</pos>
-      <size>1 0.066</size>
-      <zIndex>49</zIndex>
-      <!-- uniform parameters -->
-      <blur>6</blur>
+  </view>
+  <!-- Sample shader applied on the whole screen -->
+  <!--
+  <view name="screen">
+    <shader name="scanlines" extra="static">
+      <path>:/shaders/scanlines.glsl</path>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <zIndex>200</zIndex>
     </shader>
   </view>
+  -->
 </theme>
