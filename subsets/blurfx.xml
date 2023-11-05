@@ -6,7 +6,7 @@
     <menuBackground name="menubg">
       <shader>
         <path>:/shaders/blur.glsl</path>
-        <blur>3</blur>
+        <blur>4</blur>
       </shader>
     </menuBackground>
   </view>
@@ -20,7 +20,7 @@
       <size>1 0.2323</size>
       <zIndex>17</zIndex>
       <!-- uniform parameters -->
-      <blur>8</blur>
+      <blur>6</blur>
     </shader>
     <carousel name="systemcarousel" ifSubset="systemview:darkened, systembackground:consoles|random video|random image|random fanart|random box">
       <color>00000040</color>
