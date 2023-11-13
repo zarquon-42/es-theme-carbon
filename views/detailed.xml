@@ -101,6 +101,7 @@ originally based on: "simple" by nils bonenberger
       <size>0.4 0.774</size>
       <zIndex>12</zIndex>
     </image>
+    <!--
     <image name="detailsBkR" extra="true">
       <path>./../art/filter.png</path>
       <color>00000000</color>
@@ -111,12 +112,14 @@ originally based on: "simple" by nils bonenberger
       <size>0.005 0.774</size>
       <size ifHelpPrompts="false">0.005 0.84</size>
       <zIndex>12</zIndex>
-    </image>
+    </image>-->
     <image name="detailsBkLine" extra="true">
       <path>./../art/white.png</path>
       <color>${glowColor}</color>
+<colorEnd>00000010</colorEnd>
+      <gradientType>horizontal</gradientType>
       <origin>0 0</origin>
-      <pos>0.526 0.16</pos>
+      <pos>0.528 0.16</pos>
       <size>0.003 0.775</size>
       <size ifHelpPrompts="false">0.003 0.84</size>
       <zIndex>14</zIndex>

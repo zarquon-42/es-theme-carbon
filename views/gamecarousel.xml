@@ -1,18 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!--
-Theme: es-theme-carbon
-author: Fabrice CARUSO
-license: creative commons CC-BY-NC-SA
-originally based on: "Carbon" by Eric Hettervik (Rookervik)
-originally based on: "simple" by nils bonenberger
--->
-<theme defaultView="Icons">
+<theme>
+  <!--
+  Theme: es-theme-carbon
+  author: Fabrice CARUSO
+  license: creative commons CC-BY-NC-SA
+  originally based on: "Carbon" by Eric Hettervik (Rookervik)
+  originally based on: "simple" by nils bonenberger
+  -->
   <formatVersion>7</formatVersion>
   <view name="gamecarousel" displayName="${gameCarouselViewName}">
+    <image name="backgroundOpaque" extra="true">
+      <pos>0 0</pos>
+      <size>1 0.160</size>
+      <origin>0 0</origin>
+      <path>./../art/white.png</path>
+      <color>000000FF</color>
+      <zIndex>11</zIndex>
+    </image>
+    <image name="backgroundHeader" extra="true">
+      <tile>false</tile>
+      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <path>./art/bg.png</path>
+      <color>${backgroundColor}</color>
+      <zIndex>12</zIndex>
+      <clipRect>0 0 1 0.160</clipRect>
+    </image>
     <gamecarousel name="gamecarousel">
       <type>vertical_wheel</type>
-      <pos>0 0.162</pos>
-      <size>0.52 0.775</size>
+      <pos>0 0.1</pos>
+      <size>0.52 0.9</size>
       <logoScale>3.5</logoScale>
       <logoSize>0.15 0.15</logoSize>
       <logoAlignment>top</logoAlignment>
@@ -93,8 +111,8 @@ originally based on: "simple" by nils bonenberger
       </storyboard>
     </image>
     <image name="md_fanart">
-      <minSize>1 0.775</minSize>
       <pos>0.5 0.55</pos>
+      <minSize>1 0.9</minSize>
       <origin>0.5 0.5</origin>
       <color>FFFFFF80</color>
       <colorEnd>FFFFFF30</colorEnd>
@@ -102,39 +120,6 @@ originally based on: "simple" by nils bonenberger
       <linearSmooth>true</linearSmooth>
       <zIndex>9</zIndex>
     </image>
-    <!--
-    <image name="background">
-      <tile>false</tile>
-      <size>1 1</size>
-      <pos>0 0</pos>
-      <origin>0 0</origin>
-      <path>./art/bg.png</path>
-      <color>${backgroundColor}</color>
-      <zIndex>10</zIndex>      
-    </image>
-    
-    <image name="consolebk" extra="true" ifSubset="systembackground:consoles">
-      <path>./art/background/${system.theme}.jpg</path>
-      <linearSmooth>true</linearSmooth>
-      <pos>0.5 0.5</pos>
-      <minSize>1 1</minSize>
-      <origin>0.5 0.5</origin>
-      <color>FFFFFF12</color>
-      <zIndex>11</zIndex>
-    </image>
-  
-    <image name="ControllerOverlay" extra="true" ifSubset="systembackground:mini-consoles">
-      <path>./art/consoles/default.png</path>
-      <path>./art/consoles/${system.theme}.png</path>
-      <linearSmooth>true</linearSmooth>
-      <pos>0.25 0.52</pos>
-      <maxSize>0.4 0.4</maxSize>
-      <origin>0.5 0.5</origin>
-      <color>FFFFFF09</color>
-      <zIndex>11</zIndex>
-    </image>
-    -->
-    
     <image name="detailsBk" extra="true">
       <path>./../art/white.png</path>
       <color>00000000</color>
@@ -145,28 +130,6 @@ originally based on: "simple" by nils bonenberger
       <size>0.47 0.774</size>
       <zIndex>12</zIndex>
     </image>
-<!--
-    <image name="detailsBkR" extra="true">
-      <path>./../art/filter.png</path>
-      <color>00000000</color>
-      <colorEnd>00000010</colorEnd>
-      <gradientType>horizontal</gradientType>
-      <origin>0 0</origin>
-      <pos>0.525 0.16</pos>
-      <size>0.005 0.774</size>
-      <zIndex>12</zIndex>
-    </image>-->
-    <!--
-    <image name="detailsBkLine" extra="true">
-      <path>./art/white.png</path>
-      <color>${glowColor}</color>
-      <origin>0 0</origin>
-      <pos>0.526 0.16</pos>
-      <size>0.003 0.775</size>
-      <size ifHelpPrompts="false">0.003 0.84</size>
-      <zIndex>14</zIndex>
-    </image>
- -->
     <text name="md_genre, md_developer, md_publisher, md_lastplayed, md_releasedate, md_players, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_players, md_lbl_releasedate">
       <storyboard>
         <animation property="opacity" from="0" duration="350" mode="easeOut"/>

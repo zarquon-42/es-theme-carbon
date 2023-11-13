@@ -4,8 +4,8 @@
   <view name="grid,detailed,gamecarousel">
     <image name="iconsBk" extra="true" ifHelpPrompts="true" onclick="gameoptions">
       <path>./../art/filter.png</path>
-      <color>00000080</color>
-      <colorEnd>000000ff</colorEnd>
+      <color>00000060</color>
+      <colorEnd>000000A0</colorEnd>
       <gradientType>horizontal</gradientType>
       <origin>0 0</origin>
       <pos>0.953 0.16</pos>
@@ -15,9 +15,11 @@
     <image name="iconsLine" extra="true" ifHelpPrompts="true">
       <path>./../art/white.png</path>
       <color>${glowColor}</color>
+      <colorEnd>00000000</colorEnd>
+      <gradientType>horizontal</gradientType>
       <origin>0 0</origin>
       <pos>0.95 0.16</pos>
-      <size>0.003 0.775</size>
+      <size>0.003 0.80</size>
       <zIndex>14</zIndex>
     </image>
     <rating name="md_rating">

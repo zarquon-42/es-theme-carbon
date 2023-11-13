@@ -49,18 +49,18 @@
     -->
   </view>
   <view name="gamecarousel">
-    <control name="md_fanart">
-      <clipRect>0 0.16 1 0.78</clipRect>
+    <control name="md_fanart">      
+      <clipRect>0 0.16 1 0.84</clipRect>
       <storyboard event="open">
         <animation property="opacity" from="0" to="1" duration="400" mode="easeIn"/>
       </storyboard>
       <storyboard event="activateNext">
-        <animation property="offsetY" from="0.32" to="0" duration="400" mode="easeOut"/>
-        <animation property="opacity" from="0.95" to="1" duration="400" mode="easeOut"/>
+        <animation property="offsetY" from="0.2" to="0" duration="400" mode="easeOut"/>
+        <animation property="opacity" from="0.98" to="1" duration="300" mode="easeOut"/>
       </storyboard>
       <storyboard event="activatePrev">
-        <animation property="offsetY" from="-0.32" to="0" duration="400" mode="easeOut"/>
-        <animation property="opacity" from="0.95" to="1" duration="400" mode="easeOut"/>
+        <animation property="offsetY" from="-0.2" to="0" duration="400" mode="easeOut"/>
+        <animation property="opacity" from="0.98" to="1" duration="300" mode="easeOut"/>
       </storyboard>
       <storyboard event="deactivateNext">        
         <animation property="opacity" to="0" duration="400" mode="easeIn"/>
