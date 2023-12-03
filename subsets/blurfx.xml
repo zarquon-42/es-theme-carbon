@@ -12,7 +12,7 @@
   </view>
   <view name="system">
     <!-- Blurs darkened carousel background -->
-    <shader name="blur" extra="true" ifSubset="systemview:darkened, systembackground:consoles|random video|random image|random fanart|random box">
+    <screenshader name="blur" extra="true" ifSubset="systemview:darkened, systembackground:consoles|random video|random image|random fanart|random box">
       <path>./blurcrt.glsl</path>
       <!-- Sample glslp multipass program -->
       <!-- <path>:/shaders/kawase_blur.glslp</path> -->
@@ -21,7 +21,7 @@
       <zIndex>17</zIndex>
       <!-- uniform parameters -->
       <blur>6</blur>
-    </shader>
+    </screenshader>
     <carousel name="systemcarousel" ifSubset="systemview:darkened, systembackground:consoles|random video|random image|random fanart|random box">
       <color>00000040</color>
       <colorEnd>00000090</colorEnd>
@@ -30,14 +30,14 @@
       <visible>false</visible>
     </image>
     <!-- Blurs help bar on systemview -->
-    <shader name="syshelpblur" extra="static" ifHelpPrompts="true">
+    <screenshader name="syshelpblur" extra="static" ifHelpPrompts="true">
       <path>:/shaders/blur.glsl</path>
       <pos>0 0.935</pos>
       <size>1 0.066</size>
       <zIndex>49</zIndex>
       <!-- uniform parameters -->
       <blur>6</blur>
-    </shader>
+    </screenshader>
     <!-- Sample shader applied on image, with uniform parameter -->
     <!--
     <image name="logo">
@@ -50,14 +50,14 @@
   </view>
   <view name="basic, detailed, grid, gamecarousel">
     <!-- Blurs help bar on gamelists -->
-    <shader name="gamelistblur" extra="true" ifHelpPrompts="true">
+    <screenshader name="gamelistblur" extra="true" ifHelpPrompts="true">
       <path>:/shaders/blur.glsl</path>
       <pos>0 0.935</pos>
       <size>1 0.066</size>
       <zIndex>49</zIndex>
       <!-- uniform parameters -->
       <blur>6</blur>
-    </shader>
+    </screenshader>
     <!-- Sample shader applied on image, with uniform parameter -->
     <!--
     <image name="md_video">

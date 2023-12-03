@@ -9,6 +9,7 @@
     <!-- Colorsets  -->
     <subset.colorset>Jeux de couleurs</subset.colorset>
     <iconsViewName>Icônes</iconsViewName>
+    <contentViewName>Contenu</contentViewName>
     <blue>Bleu</blue>
     <red>Rouge</red>
     <green>Vert</green>

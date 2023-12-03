@@ -8,7 +8,6 @@ originally based on: "simple" by nils bonenberger
 -->
 <theme defaultView="Icons">
   <formatVersion>7</formatVersion>
-  
   <view name="basic, detailed, grid, gamecarousel">
     <image name="bottom" extra="true">
       <pos>0 1</pos>
@@ -18,7 +17,6 @@ originally based on: "simple" by nils bonenberger
       <color>${bottomBarColor}</color>
       <zIndex>50</zIndex>
     </image>
-    
     <image name="top-shadow" extra="true">
       <path>./art/shadow.png</path>
       <color>FFFFFF90</color>
@@ -27,7 +25,6 @@ originally based on: "simple" by nils bonenberger
       <size>1 0.04</size>
       <zIndex>14</zIndex>
     </image>
-    
     <!-- gamelist 'onclick' actions are : back, options, gameoptions, launch, search, savestates, favorite & random -->
     <image name="top" extra="true" onclick="back">
       <pos>0 0</pos>
@@ -37,7 +34,6 @@ originally based on: "simple" by nils bonenberger
       <color>00000080</color>
       <zIndex>52</zIndex>
     </image>
-      
     <image name="topLine" extra="true">
       <pos>0 0.155</pos>
       <origin>0 0</origin>
@@ -46,7 +42,6 @@ originally based on: "simple" by nils bonenberger
       <color>${baseColor}</color>
       <zIndex>55</zIndex>
     </image>
-
     <text name="logoText">
       <pos>0.02 0.02</pos>
       <size>0.98 0.126</size>
@@ -76,7 +71,7 @@ originally based on: "simple" by nils bonenberger
       <origin>0.5 0.5</origin>
       <linearSmooth>true</linearSmooth>
       <zIndex>100</zIndex>
-    </image>    
+    </image>
     <image name="logo" if="{system.collection}">
       <path>./art/logos/collections/${system.theme}.png</path>
       <path>./art/logos/collections/${system.theme}.svg</path>
@@ -85,33 +80,54 @@ originally based on: "simple" by nils bonenberger
     </image>
     <image name="logo" region="eu"/>
     <image name="logo" region="br">
-		  <path>./art/logos/br/${system.theme}.png</path>
-			<path>./art/logos/br/${system.theme}.svg</path>
+      <path>./art/logos/br/${system.theme}.png</path>
+      <path>./art/logos/br/${system.theme}.svg</path>
       <path>./art/logos/br/${system.theme}-w.png</path>
       <path>./art/logos/br/${system.theme}-w.svg</path>
-		</image>
+    </image>
     <image name="logo" region="us">
-		  <path>./art/logos/us/${system.theme}.png</path>
-			<path>./art/logos/us/${system.theme}.svg</path>
+      <path>./art/logos/us/${system.theme}.png</path>
+      <path>./art/logos/us/${system.theme}.svg</path>
       <path>./art/logos/us/${system.theme}-w.png</path>
       <path>./art/logos/us/${system.theme}-w.svg</path>
-		</image>
+    </image>
     <image name="logo" region="jp">
-		  <path>./art/logos/jp/${system.theme}.png</path>
-			<path>./art/logos/jp/${system.theme}.svg</path>
+      <path>./art/logos/jp/${system.theme}.png</path>
+      <path>./art/logos/jp/${system.theme}.svg</path>
       <path>./art/logos/jp/${system.theme}-w.png</path>
       <path>./art/logos/jp/${system.theme}-w.svg</path>
-		</image>
-		    
+    </image>
     <text name="folderpath">
-      <pos>0.05 0.132</pos>
-      <size>0.90 0.02</size>  
-      <color>B0B0B0</color>  
+      <pos>0.05 0.13</pos>
+      <size>0.90 0.02</size>
+      <color>B0B0B0</color>
       <alignment>center</alignment>
       <fontSize>0.016</fontSize>
       <fontPath>./art/fonts/Cabin-Bold.ttf</fontPath>
       <forceUppercase>true</forceUppercase>
       <zIndex>200</zIndex>
-    </text>  
+    </text>
+    <text name="filterInfo" extra="true">
+      <visible>empty({game:directory}) &amp;&amp; {system:hasfilter}</visible>
+      <text>{system:filter}</text>
+      <emptyTextDefaults>false</emptyTextDefaults>
+      <pos>0.05 0.13</pos>
+      <size>0.90 0.02</size>
+      <color>B0B0B0</color>
+      <alignment>center</alignment>
+      <fontSize>0.016</fontSize>
+      <forceUppercase>true</forceUppercase>
+      <zIndex>200</zIndex>
+    </text>
+    <image name="sys_bk" extra="true" ifSubset="systembackground:consoles">
+      <path>./../art/background/${system.theme}.jpg</path>
+      <pos>0.5 0.08</pos>
+      <origin>0.5</origin>
+      <minSize>1 0.16</minSize>
+      <linearSmooth>true</linearSmooth>
+      <gradientType>vertical</gradientType>
+      <color>00000020</color>
+      <colorEnd>FFFFFF80</colorEnd>
+    </image>
   </view>
 </theme>
