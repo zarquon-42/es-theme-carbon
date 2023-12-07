@@ -241,7 +241,7 @@
                 <linearSmooth>true</linearSmooth>
                 <zIndex>40</zIndex>
                 <color>FFFFFFE0</color>
-                <roundCorners>${cornersOfMedias}</roundCorners>
+                <roundCorners>{game:folder} ? 0 : ${cornersOfMedias}</roundCorners>
                 <shader>
                   <path>:/shaders/border.glsl</path>
                   <cornerRadius>${cornersOfMedias}</cornerRadius>
@@ -249,8 +249,7 @@
                   <borderColor>00000080</borderColor>
                   <innerShadowSize>0</innerShadowSize>
                   <outerShadowSize>3</outerShadowSize>
-                  <outerShadowColor>00000080</outerShadowColor>
-                  <bilinearFiltering>true</bilinearFiltering>
+                  <outerShadowColor>00000080</outerShadowColor>                  
                 </shader>
                 <storyboard event="activate">
                   <animation property="color" to="white"/>
