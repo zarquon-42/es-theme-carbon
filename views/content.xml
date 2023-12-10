@@ -9,15 +9,15 @@
     <simpleMode>${system.name} == "retrobat"</simpleMode>
     <favoriteSystem>${system.name} == "favorites"</favoriteSystem>
     <borderFrame>./../art/framewsel.png</borderFrame>
-    <borderFrame ifSubset="tileborders:no">./../art/framewselsq.png</borderFrame>        
+    <borderFrame ifSubset="tileborders:no">./../art/framewselsq.png</borderFrame>
     <blinkColor>FFFF80FF</blinkColor>
-    <blinkColor ifSubset="blinkborders:no">${baseColor}</blinkColor>        
+    <blinkColor ifSubset="blinkborders:no">${baseColor}</blinkColor>
   </variables>
   <subset if="!${simpleMode}" name="contentBack" displayName="CONTENT BACKGROUND" appliesTo="Content">
     <include name="none" displayName="NONE"/>
     <include name="thumb" displayName="THUMBNAIL"/>
     <include name="fanart" displayName="FANART"/>
-	</subset>
+  </subset>
   <customView name="Content" inherits="grid" displayName="${contentViewName}">
     <!--
     <image name="gamePage" extra="true">
@@ -132,7 +132,9 @@
     <imagegrid name="gamegrid">
       <autoLayout>3 4</autoLayout>
       <autoLayout if="${simpleMode}">3 5</autoLayout>
+      <autoLayout if="!${wideScreen}">2 4</autoLayout>      
       <autoLayout ifSubset="previewbar:yes">2 4</autoLayout>
+      <autoLayout if="!${wideScreen}" ifSubset="previewbar:yes" >1 4</autoLayout>      
       <margin>0.006 0.010</margin>
       <itemTemplate>
         <container name="contentRoot">
@@ -249,7 +251,7 @@
                   <borderColor>00000080</borderColor>
                   <innerShadowSize>0</innerShadowSize>
                   <outerShadowSize>3</outerShadowSize>
-                  <outerShadowColor>00000080</outerShadowColor>                  
+                  <outerShadowColor>00000080</outerShadowColor>
                 </shader>
                 <storyboard event="activate">
                   <animation property="color" to="white"/>
@@ -386,7 +388,7 @@
                   </stackpanel>
                   <container>
                     <size>1 1</size>
-                    <stackpanel>                    
+                    <stackpanel>
                       <size>1 0.3</size>
                       <pos>0 0</pos>
                       <separator>6</separator>
@@ -438,7 +440,7 @@
                       <text if="!${simpleMode} &amp;&amp; ${system.showSystemName}">
                         <pos>0 0</pos>
                         <size>0 1</size>
-                        <text>[{game:system}]</text>
+                        <text>"[" + {game:system} + "]"</text>
                         <color>FFFFFF70</color>
                         <fontPath>./art/fonts/Cabin-Regular.ttf</fontPath>
                         <fontSize>0.016</fontSize>

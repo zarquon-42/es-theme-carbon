@@ -11,7 +11,7 @@ languages and missing systems (batocera v36): by maioni
   <formatVersion>7</formatVersion>
   <variables>
     <!-- Example evaluated variables, usable in if="" conditions -->
-    <wideScreen>${screen.ratio} == "16/9" || ${screen.ratio} == "16/10"</wideScreen>
+    <wideScreen>${screen.ratio} == "16/9" || ${screen.ratio} == "16/10" || ${screen.ratio} == "16/15" || ${screen.ratio} == "21/9"</wideScreen>
     <fullHD>${screen.height} >= 1080</fullHD>
     <!-- Variables -->
     <baseColor>8b0000</baseColor>

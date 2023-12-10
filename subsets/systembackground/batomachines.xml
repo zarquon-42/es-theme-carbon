@@ -41,6 +41,7 @@
     </image>
     <image name="ControllerOverlay" extra="true">
       <visible>false</visible>
+      <path>none</path>
     </image>
     <text name="systemInfo">
       <glowColor>00000022</glowColor>

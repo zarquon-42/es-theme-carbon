@@ -25,7 +25,7 @@
           <!-- <shader path=":/shaders/blur.glsl" blur="3"/> -->
           <zIndex>1</zIndex>
         </image>
-        <image name="theLogoImage" pos="0.5" origin="0.5" maxSize="1" linearSmooth="true">
+        <image name="theLogoImage" pos="0.5" origin="0.5" maxSize="1" linearSmooth="false">
           <path>{system:logo}</path>
           <zIndex>2</zIndex>
         </image>
