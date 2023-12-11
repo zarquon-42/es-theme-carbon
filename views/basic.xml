@@ -59,13 +59,13 @@ originally based on: "simple" by nils bonenberger
       <scrollSound>./../art/sounds/scroll.wav</scrollSound>
       <selectorColor>${centerFadeColor}</selectorColor>
       <selectedColor>FFFFFFFF</selectedColor>
+      <glowColor>000000A0</glowColor>
+      <glowSize ifArch="windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
+      -->
       <scrollbarColor>96969620</scrollbarColor>
       <scrollbarCorner>0.49</scrollbarCorner>
       <scrollbarSize>0.0065</scrollbarSize>
       <scrollbarAlignment>outerright</scrollbarAlignment>
-      <glowColor>000000A0</glowColor>
-      <glowSize ifArch="windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
-      -->
       <itemTemplate>
         <image name="selectionBackground">
           <path>./../art/white.png</path>
@@ -79,7 +79,7 @@ originally based on: "simple" by nils bonenberger
           </storyboard>
           <container>
             <padding>6 0</padding>
-            <text name="nameId" pos="0 0" size="0.5 1">
+            <text name="nameId" pos="0 0" size="1 1">
               <text>{grid:label}</text>
               <!--
               <glowColor>000000A0</glowColor>
