@@ -41,17 +41,38 @@ void main(void)
 
 #elif defined(FRAGMENT)
 			
-varying   vec4      COL0;
-varying   vec2      v_tex;
-varying   vec4      TEX0;
-varying   vec2      invDims;
+#if __VERSION__ >= 130
+#define COMPAT_VARYING in
+#define COMPAT_TEXTURE texture
+out vec4 FragColor;
+#else
+#define COMPAT_VARYING varying
+#define FragColor gl_FragColor
+#define COMPAT_TEXTURE texture2D
+#endif
+
+#ifdef GL_ES
+#ifdef GL_FRAGMENT_PRECISION_HIGH
+precision highp float;
+#else
+precision mediump float;
+#endif
+#define COMPAT_PRECISION mediump
+#else
+#define COMPAT_PRECISION
+#endif
+			
+COMPAT_VARYING   vec4      COL0;
+COMPAT_VARYING   vec2      v_tex;
+COMPAT_VARYING   vec4      TEX0;
+COMPAT_VARYING   vec2      invDims;
 
 uniform   sampler2D u_tex;
-uniform   vec2      resolution;
-uniform   vec2      TextureSize;
-uniform   vec2      OutputSize;
+uniform   COMPAT_PRECISION vec2      resolution;
+uniform   COMPAT_PRECISION vec2      TextureSize;
+uniform   COMPAT_PRECISION vec2      OutputSize;
 
-uniform   float      blur;
+uniform   COMPAT_PRECISION float      blur;
 
 #define SCANTHICK 2.0
 #define INTENSITY 0.15
@@ -60,7 +81,7 @@ uniform   float      blur;
 #define BLUR 0.6
 #define GAMMA 0.45
 #define SATURATION 1.0
-#define shadowmask 0
+#define shadowmask 0.0
 #define msk_size 1.0
 
 vec3 mask(float p)
@@ -90,7 +111,6 @@ vec3 mask(float p)
     return Mask;
 }
 
-
 //SIMPLE AND FAST SATURATION
 vec3 saturation (vec3 textureColor)
 
@@ -113,7 +133,7 @@ void main(void)
 	int numSamples = 13;
 	
 	// Initialize a color accumulator
-	vec4 blurColor = texture2D(u_tex, v_tex) * numSamples;
+	vec4 blurColor = COMPAT_TEXTURE(u_tex, v_tex) * float(numSamples);
 
 	// Calculate the step size for sampling the scene texture
 	vec2 stepSize = 1.0 / TextureSize;
@@ -123,8 +143,8 @@ void main(void)
 	
 	for (int i = 0; i < numSamples; i++) {
 		vec2 offset = vec2(cos(float(i) * 3.14159 * 2.0 / float(numSamples)), sin(float(i) * 3.14159 * 2.0 / float(numSamples)));		
-	    for (int b = 1; b < blurSize; b++) {	    
-			blurColor += texture2D(u_tex, v_tex + offset * b * stepSize * 1.5);	
+	    for (int b = 1; b < int(blurSize); b++) {	    
+			blurColor += COMPAT_TEXTURE(u_tex, v_tex + offset * float(b) * stepSize * 1.5);	
 			total++;
 		}
 	}
@@ -133,7 +153,7 @@ void main(void)
 	blurColor /= float(total);
 
 	// Output the final blurred color
-	// gl_FragColor = blurColor;
+	// FragColor = blurColor;
 	
 	vec2 pos = TEX0.xy;
     vec2 p = pos * TextureSize; 
@@ -155,6 +175,6 @@ void main(void)
     pixelColor = pow(pixelColor,vec3(GAMMA));
     pixelColor= saturation(pixelColor);
 	
-    gl_FragColor = vec4(pixelColor, 1.0);
+    FragColor = vec4(pixelColor, 1.0);
 }
 #endif
