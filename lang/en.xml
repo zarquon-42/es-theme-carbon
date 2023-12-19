@@ -19,7 +19,7 @@
     <gray>Gray</gray>
     <!-- Common views  -->
     <tilesViewName>Thumbnails</tilesViewName>
-    <basicGridName>Grid</basicGridName>
+    <basicGridName>Boxes</basicGridName>
     <gameCarouselViewName>Carousel of boxes</gameCarouselViewName>
     <carouselViewName>Carousel</carouselViewName>
     <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->
