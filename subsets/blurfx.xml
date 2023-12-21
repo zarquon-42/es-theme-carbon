@@ -4,10 +4,16 @@
   <view name="menu">
     <!-- Apply blur when a menu is opened -->
     <menuBackground name="menubg">
-      <shader>
+      <color>242424BB</color>
+      <!-- fadeShader applies to the background fading (whole screen) -->
+      <fadeShader>
         <path>:/shaders/blur.glsl</path>
         <blur>4</blur>
-      </shader>
+      </fadeShader>
+      <!-- menuShader applies under the menu only -->
+      <menuShader>
+        <path>:/shaders/kawase_blur_9pass.glslp</path>
+      </menuShader>
     </menuBackground>
   </view>
   <view name="system">

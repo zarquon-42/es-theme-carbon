@@ -71,6 +71,8 @@ uniform   sampler2D u_tex;
 uniform   COMPAT_PRECISION vec2      resolution;
 uniform   COMPAT_PRECISION vec2      TextureSize;
 uniform   COMPAT_PRECISION vec2      OutputSize;
+uniform   COMPAT_PRECISION int FrameDirection;
+uniform   COMPAT_PRECISION int FrameCount;
 
 uniform   COMPAT_PRECISION float      blur;
 
@@ -123,6 +125,10 @@ vec3 saturation (vec3 textureColor)
     return res;
 }
 
+float randomValue(vec2 co) {
+    return fract(sin(dot(co.xy, vec2(12.9898, 78.233) + 5.0)) * 43758.5453);
+}
+
 void main(void)                                    
 {         
 	float blurSize = blur;
@@ -162,6 +168,8 @@ void main(void)
     p = (i + 4.0*f*f*f)*invDims;
     p.x = mix(p.x, pos.x, BLUR);
   
+   //animate strength
+
     vec3 texel = blurColor.rgb;
     vec3 pixelHigh = ((1.0 + BRIGHTBOOST) - (0.2 * texel)) * texel;
     vec3 pixelLow  = ((1.0 - INTENSITY) + (0.1 * texel)) * texel;
@@ -176,5 +184,21 @@ void main(void)
     pixelColor= saturation(pixelColor);
 	
     FragColor = vec4(pixelColor, 1.0);
+	/*
+	// Noise effect
+    int anim = int(mod(float(FrameCount), 25.0)); 
+  	  
+	vec2 uv = gl_FragCoord.xy / resolution;
+    float seed = float(anim);
+
+    // Generate random noise
+    float noise = randomValue(uv + seed);
+
+    // Output the final color with noise
+    vec4 pxNoised = vec4(vec3(noise), 1.0);
+	
+	vec3 finalColor = mix(pixelColor, vec3(noise), 0.1);
+
+	FragColor = vec4(finalColor, 1.0);*/
 }
 #endif

@@ -22,7 +22,11 @@
           <path>{system:logo}</path>
           <padding>4 4 -4 -4</padding>
           <color>00000050</color>
-          <!-- <shader path=":/shaders/blur.glsl" blur="3"/> -->
+          <!--
+          <shader>
+            <path>:/shaders/blur.glsl</path>
+            <blur>2</blur>
+          </shader>-->
           <zIndex>1</zIndex>
         </image>
         <image name="theLogoImage" pos="0.5" origin="0.5" maxSize="1" linearSmooth="false">
