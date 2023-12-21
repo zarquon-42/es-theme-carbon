@@ -118,10 +118,10 @@ languages and missing systems (batocera v36): by maioni
   </subset>
   <!-- Subset option for System view background -->
   <subset name="systembackground" displayName="${systemBackgroundName}">
-    <include tinyScreen="false" name="mini-consoles" displayName="${systembackground.miniconsoles}">./subsets/systembackground/consoles.xml</include>
+    <!--<include tinyScreen="false" name="mini-consoles" displayName="${systembackground.miniconsoles}">./subsets/systembackground/consoles.xml</include>-->
     <!-- change default for small screens -->
     <include name="consoles" displayName="${systembackground.consoles}">./subsets/systembackground/batomachines.xml</include>
-    <include tinyScreen="true" name="mini-consoles" displayName="${systembackground.miniconsoles}">./subsets/systembackground/consoles.xml</include>
+    <include name="mini-consoles" displayName="${systembackground.miniconsoles}">./subsets/systembackground/consoles.xml</include> <!-- tinyScreen="true" -->
     <include name="carbon controllers" displayName="${systembackground.carboncontrollers}">./subsets/systembackground/animatedbackgroundsubset.xml</include>
     <include name="carbon legacy" displayName="${systembackground.carbonlegacy}">./subsets/systembackground/carbon.xml</include>
     <include name="simple" displayName="${systembackground.simple}">./subsets/systembackground/simple.xml</include>
