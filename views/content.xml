@@ -132,9 +132,9 @@
     <imagegrid name="gamegrid">
       <autoLayout>3 4</autoLayout>
       <autoLayout if="${simpleMode}">3 5</autoLayout>
-      <autoLayout if="!${wideScreen}">2 4</autoLayout>      
+      <autoLayout if="!${wideScreen}">2 4</autoLayout>
       <autoLayout ifSubset="previewbar:yes">2 4</autoLayout>
-      <autoLayout if="!${wideScreen}" ifSubset="previewbar:yes" >1 4</autoLayout>      
+      <autoLayout if="!${wideScreen}" ifSubset="previewbar:yes">1 4</autoLayout>
       <margin>0.006 0.010</margin>
       <itemTemplate>
         <container name="contentRoot">
@@ -375,7 +375,7 @@
                       <color>FFFFFFFF</color>
                     </image>
                     <image>
-                      <visible>{game:gunGame}</visible>
+                      <visible>{game:gunGame} &amp;&amp; {system:showGun}</visible>
                       <path>./../resources/fontoverrides/F05B.png</path>
                       <pos>0 0</pos>
                       <origin>0 0</origin>
@@ -383,6 +383,17 @@
                       <horizontalAlignment>right</horizontalAlignment>
                       <saturation>{game:gunGame} ? 1 : 0</saturation>
                       <opacity>{game:gunGame} ? 1 : 0.2</opacity>
+                      <color>FFFFFFFF</color>
+                    </image>
+                    <image>
+                      <visible>{game:wheelGame} &amp;&amp; {system:showWheel}</visible>
+                      <path>./../resources/fontoverrides/F1B9.png</path>
+                      <pos>0 0</pos>
+                      <origin>0 0</origin>
+                      <maxSize>1 1</maxSize>
+                      <horizontalAlignment>right</horizontalAlignment>
+                      <saturation>{game:wheelGame} ? 1 : 0</saturation>
+                      <opacity>{game:wheelGame} ? 1 : 0.2</opacity>
                       <color>FFFFFFFF</color>
                     </image>
                   </stackpanel>
