@@ -21,6 +21,7 @@
     <!-- Common views  -->
     <tilesViewName>Vignettes</tilesViewName>
     <basicGridName>Boîtes</basicGridName>
+    <gridName>Grille</gridName>
     <gameCarouselViewName>Carrousel de boîtes</gameCarouselViewName>
     <carouselViewName>Carrousel</carouselViewName>
     <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->

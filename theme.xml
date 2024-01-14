@@ -13,6 +13,7 @@ languages and missing systems (batocera v36): by maioni
     <!-- Example evaluated variables, usable in if="" conditions -->
     <wideScreen>${screen.ratio} == "16/9" || ${screen.ratio} == "16/10" || ${screen.ratio} == "16/15" || ${screen.ratio} == "21/9"</wideScreen>
     <fullHD>${screen.height} >= 1080</fullHD>
+    <pxScale>1080 / ${screen.height}</pxScale>
     <!-- Variables -->
     <baseColor>8b0000</baseColor>
     <gradientEndColor>6b2020</gradientEndColor>
@@ -63,10 +64,10 @@ languages and missing systems (batocera v36): by maioni
     <thumbnail>thumbnail</thumbnail>
     <animatedInfobar>Animated preview bar</animatedInfobar>
   </variables>
+  <include>./lang/en.xml</include> <!-- Always include en as it's the default --> 
   <include lang="ar">./lang/ar.xml</include>
   <include lang="ca">./lang/ca.xml</include>
   <include lang="de">./lang/de.xml</include>
-  <include lang="en">./lang/en.xml</include>
   <include lang="en_GB">./lang/en_GB.xml</include>
   <include lang="es">./lang/es.xml</include>
   <include lang="eu">./lang/en.xml</include>
@@ -109,12 +110,14 @@ languages and missing systems (batocera v36): by maioni
   <!-- Subset options for screen -->
   <subset name="systemview" displayName="${systemViewName}">
     <include name="darkened" displayName="${systemview.darkened}">./subsets/systemview/horizontaldark.xml</include>
+    <include name="imagegrid" displayName="${gridName}">./subsets/systemview/imagegrid.xml</include>
     <include name="horizontal" displayName="${systemview.horizontal}">./subsets/systemview/horizontal.xml</include>
     <include name="legacy" displayName="${systemview.legacy}" tinyScreen="false">./subsets/systemview/legacy.xml</include>
     <include name="transparent" displayName="${systemview.transparent}" tinyScreen="false">./subsets/systemview/transparent.xml</include>
     <include name="simple" displayName="${systemview.simple}">./subsets/systemview/verticalone.xml</include>
     <include name="vertical"  displayName="${systemview.vertical}">./subsets/systemview/vertical.xml</include>
     <include name="wheel" displayName="${systemview.wheel}">./subsets/systemview/wheel.xml</include>
+    <include name="textlist" displayName="textlist">./subsets/systemview/textlist.xml</include>
   </subset>
   <!-- Subset option for System view background -->
   <subset name="systembackground" displayName="${systemBackgroundName}">

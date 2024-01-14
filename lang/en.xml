@@ -20,6 +20,7 @@
     <!-- Common views  -->
     <tilesViewName>Thumbnails</tilesViewName>
     <basicGridName>Boxes</basicGridName>
+    <gridName>Grid</gridName>
     <gameCarouselViewName>Carousel of boxes</gameCarouselViewName>
     <carouselViewName>Carousel</carouselViewName>
     <!-- <system.carouselViewName>Carrossel sys</system.carouselViewName> -->

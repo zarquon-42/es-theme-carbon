@@ -118,6 +118,7 @@
       <colorEnd>FFFFFF30</colorEnd>
       <gradientType>horizontal</gradientType>
       <linearSmooth>true</linearSmooth>
+      <autoFade>false</autoFade>
       <zIndex>9</zIndex>
     </image>
     <image name="detailsBk" extra="true">
