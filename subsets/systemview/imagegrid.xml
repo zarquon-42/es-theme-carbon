@@ -28,7 +28,7 @@
       <scrollbarSize>0.005</scrollbarSize>
       <scrollbarAlignment>right</scrollbarAlignment>
       <itemTemplate>
-      <!--
+        <!--
         <text>
           <pos>0 0.8</pos>
           <size>1 0.2</size>
@@ -98,7 +98,12 @@
             </image>
           </image>
           <image name="systemBack" extra="true">
-            <path>${themePath}/art/background/{system:theme}.jpg</path>
+            <path>${themePath}/art/background/${system.theme}.jpg</path>
+            <!-- this line is just to make sure the image size was preloaded for async, but is not dynamic -->
+            <path>none</path>
+            <!-- remove binding to the preloaded version -->
+            <path>exists("${themePath}/art/background/" + {system:theme} + ".jpg") ? "${themePath}/art/background/" + {system:theme} + ".jpg" : "${themePath}/art/background/collections/" + {system:theme} + ".jpg"</path>
+            <!-- Redeclare the line to make the image dynamic with binding -->
             <pos>0.5</pos>
             <origin>0.5</origin>
             <minSize>1 1</minSize>
@@ -149,24 +154,26 @@
     </imagegrid>
     <!-- HEADER -->
     <image name="headerConsole" extra="true" ifSubset="systembackground:consoles">
+      <path>${themePath}/art/background/collections/${system.theme}.jpg</path>
       <path>${themePath}/art/background/${system.theme}.jpg</path>
       <pos>0.5 0.11</pos>
       <origin>0.5</origin>
       <minSize>1 0.22</minSize>
       <linearSmooth>true</linearSmooth>
       <gradientType>vertical</gradientType>
-      <color>FFFFFF</color>
-      <colorEnd>FFFFFF</colorEnd>
+      <color>00000001</color>
+      <colorEnd>FFFFFF80</colorEnd>
       <zIndex>12</zIndex>
     </image>
-    <image name="headerGradient" extra="static">
+    <image name="backgroundMachines" extra="true" visible="false"/>
+    <imageX name="headerGradient" extra="static">
       <path>${themePath}/art/white.png</path>
       <color>00000001</color>
       <colorEnd>000000FF</colorEnd>
       <pos>0 0</pos>
       <size>1 0.22</size>
       <zIndex>13</zIndex>
-    </image>
+    </imageX>
     <image name="headerLine" extra="static">
       <pos>0 0.22</pos>
       <pos verticalScreen="true">0 0.17</pos>
@@ -188,7 +195,7 @@
     </image>
     <image name="backgroundEraser" extra="static">
       <path>${themePath}/art/bg.png</path>
-      <color>${backgroundColor}</color>      
+      <color>${backgroundColor}</color>
       <pos>0 0.22</pos>
       <size>1 0.78</size>
       <pos verticalScreen="true">0 0.17</pos>
