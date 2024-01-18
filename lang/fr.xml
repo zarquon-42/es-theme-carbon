@@ -18,7 +18,7 @@
     <green>Vert</green>
     <cyan>Cyan</cyan>
     <yellow>Jaune</yellow>
-    <violet>Violette</violet>
+    <violet>Violet</violet>
     <orange>Orange</orange>
     <gray>Gris</gray>
         <!-- Region -->
@@ -31,11 +31,11 @@
     <systemViewName>Vue système</systemViewName>
     <systemview.darkened>Sombre</systemview.darkened>
     <systemview.gridName>Grille d'images</systemview.gridName>
-    <systemview.horizontal>Horizontale</systemview.horizontal>
-    <systemview.legacy>Héritage</systemview.legacy>
-    <systemview.transparent>Transparente</systemview.transparent>
+    <systemview.horizontal>Horizontal</systemview.horizontal>
+    <systemview.legacy>Legacy</systemview.legacy>
+    <systemview.transparent>Transparent</systemview.transparent>
     <systemview.simple>Simple</systemview.simple>
-    <systemview.vertical>Verticale</systemview.vertical>
+    <systemview.vertical>Vertical</systemview.vertical>
     <systemview.wheel>Carrousel</systemview.wheel>
     <systemview.textlist>Liste de textes</systemview.textlist>
     <!-- Subset option for System view background -->
@@ -44,7 +44,7 @@
     <systembackground.consoles>Consoles</systembackground.consoles>
     <systembackground.miniconsoles>Mini consoles</systembackground.miniconsoles>
     <systembackground.carboncontrollers>Contrôleurs Carbon</systembackground.carboncontrollers>
-    <systembackground.carbonlegacy>Héritage</systembackground.carbonlegacy>
+    <systembackground.carbonlegacy>Legacy</systembackground.carbonlegacy>
     <systembackground.simple>Simple</systembackground.simple>
     <systembackground.randomvideo>Vidéo aléatoire</systembackground.randomvideo>
     <systembackground.randomfanart>Fanart aléatoire</systembackground.randomfanart>
@@ -56,11 +56,11 @@
     <animatedBackground>Animation du fond</animatedBackground>
     <animatedCovers>Boîtes aléatoires</animatedCovers>
     <!-- Fix for controller image size -->
-    <systemview.simple>simples</systemview.simple>
-    <systemview.vertical>verticale</systemview.vertical>
+    <systemview.simple>simple</systemview.simple>
+    <systemview.vertical>vertical</systemview.vertical>
     <systemview.wheel>carrousel</systemview.wheel>
     <!-- Fix for Legacy option in systemview subset : systemInfo colors have to be restored after applying systembackground subset -->
-    <systemview.legacy>héritage</systemview.legacy>
+    <systemview.legacy>legacy</systemview.legacy>
     <!-- Subset options for blur effects -->
     <subset.blurfx>Effets de flou</subset.blurfx>
       <!-- Subset options for help -->
@@ -70,10 +70,10 @@
     <psxbuttons>Boutons de la PlayStation</psxbuttons>
     <colored>Colorés</colored>
       <!-- Subset options for screen / Filters -->
-    <subset.shader>Filtres</subset.shader>
+    <subset.shader>Effets TV</subset.shader>
     <none>Aucun</none>
-    <scanlines>lignes de balayage</scanlines>
-    <crt>téléviseur à tube</crt>
+    <scanlines>Scanlines</scanlines>
+    <crt>CRT</crt>
     <!-- Specific layout for systems -->
     <!-- <system.theme>Thème</system.theme> -->
     <!-- add game info bar -->
