@@ -235,7 +235,7 @@
             <container name="spacer" w="0.007"/>
             <container>
               <w>{grid:h}</w>
-              <image name="imageOfGame" if="!${simpleMode}">
+              <image name="imageOfGame" if="!${simpleMode}" shared="false">
                 <path>{game:image}</path>
                 <origin>0.5</origin>
                 <pos>0.5</pos>

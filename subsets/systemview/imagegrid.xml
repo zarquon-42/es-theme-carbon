@@ -165,15 +165,8 @@
       <colorEnd>FFFFFF80</colorEnd>
       <zIndex>12</zIndex>
     </image>
-    <image name="backgroundMachines" extra="true" visible="false"/>
-    <imageX name="headerGradient" extra="static">
-      <path>${themePath}/art/white.png</path>
-      <color>00000001</color>
-      <colorEnd>000000FF</colorEnd>
-      <pos>0 0</pos>
-      <size>1 0.22</size>
-      <zIndex>13</zIndex>
-    </imageX>
+    <control name="ControllerOverlay" extra="true" pos="0.5 0.11" maxSize="0.33 0.19"/>    
+    <control name="backgroundMachines" extra="true" visible="false"/>
     <image name="headerLine" extra="static">
       <pos>0 0.22</pos>
       <pos verticalScreen="true">0 0.17</pos>
@@ -218,7 +211,7 @@
       <pos>0.03 0.04</pos>
       <size>0.94 0.16</size>
       <pos verticalScreen="true">0.03 0.02</pos>
-    </text>
+    </text>    
     <!-- White logos -->
     <image name="logo">
       <path>${themePath}/art/logos/${system.theme}-w.png</path>
