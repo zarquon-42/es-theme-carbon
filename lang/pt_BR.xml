@@ -24,11 +24,11 @@
     <!-- Region -->
     <subset.region>Região</subset.region>
     <!-- Subset option for System extended informations -->
-    <systemViewExInfos>Informações de sistema aprimoradas</systemViewExInfos>
+    <systemViewExInfos>Informações aprimoradas do sistema</systemViewExInfos>
     <yes>Sim</yes>
     <no>Não</no>
     <!-- Subset options for screen / System view -->
-    <systemViewName>Visualização do sistema</systemViewName>
+    <systemViewName>Modo de visualização do sistema</systemViewName>
     <systemview.darkened>Escuro</systemview.darkened>
     <systemview.gridName>Grade de Imagens</systemview.gridName>
     <systemview.horizontal>Horizontal</systemview.horizontal>
