@@ -4,7 +4,7 @@
   <view name="menu">
     <!-- Apply blur when a menu is opened -->
     <menuBackground name="menubg">
-      <color>242424C0</color>
+      <color>242424D0</color>
       <!-- fadeShader applies to the background fading (whole screen) -->
       <fadeShader>
         <path>:/shaders/blur.glsl</path>
