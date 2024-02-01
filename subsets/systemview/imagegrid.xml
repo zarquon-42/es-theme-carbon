@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
   <variables>
@@ -102,7 +102,14 @@
             <!-- this line is just to make sure the image size was preloaded for async, but is not dynamic -->
             <path>none</path>
             <!-- remove binding to the preloaded version -->
-            <path>exists("${themePath}/art/background/" + {system:theme} + ".jpg") ? "${themePath}/art/background/" + {system:theme} + ".jpg" : "${themePath}/art/background/collections/" + {system:theme} + ".jpg"</path>
+            <!-- <path>exists("${themePath}/art/background/" + {system:theme} + ".jpg") ? "${themePath}/art/background/" + {system:theme} + ".jpg" : exists("${themePath}/art/background/collections/" + {system:theme} + ".jpg") ? "${themePath}/art/background/collections/" + {system:theme} + ".jpg" : {system:ascollection:random:fanart}</path>-->
+            <path>firstfile(
+              "${themePath}/art/background/${region}/" + {system:theme} + ".jpg",
+              "${themePath}/art/background/" + {system:theme} + ".jpg", 
+              "${themePath}/art/background/collections/${region}/" + {system:theme} + ".jpg", 
+              "${themePath}/art/background/collections/" + {system:theme} + ".jpg", 
+              {system:ascollection:random:fanart})</path>
+
             <!-- Redeclare the line to make the image dynamic with binding -->
             <pos>0.5</pos>
             <origin>0.5</origin>
@@ -138,7 +145,8 @@
               <fontPath>${themePath}/art/fonts/Cabin-Bold.ttf</fontPath>
               <forceUppercase>false</forceUppercase>
               <color>white</color>
-              <glowColor>00000010</glowColor>
+              <glowOffset>1 1</glowOffset>
+              <glowColor>0000002a</glowColor>
               <glowSize>3</glowSize>
             </text>
             <opacity>0.9</opacity>
@@ -165,7 +173,7 @@
       <colorEnd>FFFFFF80</colorEnd>
       <zIndex>12</zIndex>
     </image>
-    <control name="ControllerOverlay" extra="true" pos="0.5 0.11" maxSize="0.33 0.19"/>    
+    <control name="ControllerOverlay" extra="true" pos="0.5 0.11" maxSize="0.33 0.19"/>
     <control name="backgroundMachines" extra="true" visible="false"/>
     <image name="headerLine" extra="static">
       <pos>0 0.22</pos>
@@ -211,7 +219,7 @@
       <pos>0.03 0.04</pos>
       <size>0.94 0.16</size>
       <pos verticalScreen="true">0.03 0.02</pos>
-    </text>    
+    </text>
     <!-- White logos -->
     <image name="logo">
       <path>${themePath}/art/logos/${system.theme}-w.png</path>
