@@ -42,7 +42,7 @@
     <systemBackgroundName>Фон</systemBackgroundName>
     <!-- change default for small screens -->
     <systembackground.consoles>Консоли</systembackground.consoles>
-    <systembackground.miniconsoles>Консоли (уменьшенное)</systembackground.miniconsoles>
+    <systembackground.miniconsoles>Консоли (уменьшено)</systembackground.miniconsoles>
     <systembackground.carboncontrollers>Элементы управления Carbon</systembackground.carboncontrollers>
     <systembackground.carbonlegacy>Устаревший</systembackground.carbonlegacy>
     <systembackground.simple>Простой</systembackground.simple>
@@ -50,9 +50,9 @@
     <systembackground.randomfanart>Случайный фанарт</systembackground.randomfanart>
     <systembackground.randomimage>Случайное изображение</systembackground.randomimage>
     <systembackground.randombox>Случайная коробка с игрой</systembackground.randombox>
-    <systembackground.minirandomimage>Случайное изображение (уменьшенное)</systembackground.minirandomimage>
-    <systembackground.minirandombox>Случайная коробка с игрой (уменьшенное)</systembackground.minirandombox>
-    <systembackground.minirandomvideo>Случайное видео (уменьшенное)</systembackground.minirandomvideo>
+    <systembackground.minirandomimage>Случайное изображение (уменьшено)</systembackground.minirandomimage>
+    <systembackground.minirandombox>Случайная коробка с игрой (уменьшено)</systembackground.minirandombox>
+    <systembackground.minirandomvideo>Случайное видео (уменьшено)</systembackground.minirandomvideo>
     <animatedBackground>Фоновые анимации</animatedBackground>
     <animatedCovers>Случайные обложки</animatedCovers>
     <!-- Fix for controller image size -->
