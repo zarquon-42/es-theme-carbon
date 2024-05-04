@@ -74,6 +74,7 @@ languages and missing systems (batocera v36): by maioni
   <include lang="fr">./lang/fr.xml</include>
   <include lang="gr">./lang/gr.xml</include>
   <include lang="it">./lang/it.xml</include>
+  <include lang="hu">./lang/hu.xml</include>
   <include lang="jp">./lang/jp.xml</include>
   <include lang="ko">./lang/ko.xml</include>
   <include lang="nl">./lang/nl.xml</include>

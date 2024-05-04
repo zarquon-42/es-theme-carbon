@@ -58,6 +58,11 @@ Dernière partie : {binding:lastPlayedDate}</text>
 Παιχνίδια που παίχτηκαν : {binding:gamesPlayed}
 Περισσότερα παίχτηκαν : {binding:mostPlayed}
 Τελευταία κίνηση : {binding:lastPlayedDate}</text>
+      <text lang="hu">Játékok : {binding:total}
+Kedvencek : {binding:favorites}
+Játszottak : {binding:gamesPlayed}
+Gyakran játszott : {binding:mostPlayed}
+Utoljára játszott : {binding:lastPlayedDate}</text>
       <text lang="it">Numero di giochi : {binding:total}
 Preferiti : {binding:favorites}
 Giochi giocati : {binding:gamesPlayed}
@@ -135,6 +140,7 @@ Mais jogados : {binding:mostPlayed}
       <text lang="en_GB">Number of collections : {binding:subSystems}</text>
       <text lang="es">Número de colecciones : {binding:subSystems}</text>
       <text lang="fr">Nombre de collections : {binding:subSystems}</text>
+      <text lang="hu">Gyűjtemények száma : {binding:subSystems}</text>
       <text lang="it">Numero di raccolte : {binding:subSystems}</text>
       <text lang="jp">コレクション数 : {binding:subSystems}</text>
       <text lang="ko">컬렉션 개수 : {binding:subSystems}</text>
@@ -157,6 +163,7 @@ Mais jogados : {binding:mostPlayed}
       <text lang="en_GB">Number of items : {binding:total}</text>
       <text lang="es">Número de elementos: {binding:total}</text>
       <text lang="fr">Nombre d'élements : {binding:total}</text>
+      <text lang="hu">Elemek száma : {binding:total}</text>
       <text lang="it">Numero di elementi : {binding:total}</text>
       <text lang="jp">要素数 : {binding:total}</text>
       <text lang="ko">요소 수 : {binding:total}</text>
