@@ -3,7 +3,7 @@
   <formatVersion>7</formatVersion>
   <!-- Russian -->
   <variables lang="ru">
-    <dateFormat>%d/%m/%Y</dateFormat>
+    <dateFormat>%d.%m.%Y</dateFormat>
     <!-- Common views / Gamelist view -->
     <gameCarouselViewName>Карусель из коробок</gameCarouselViewName> <!-- NEED REVIEW -->
     <basicGridName>Сетка</basicGridName>
@@ -24,7 +24,7 @@
     <!-- Region -->
     <subset.region>Регион</subset.region>
     <!-- Subset option for System extended informations -->
-    <systemViewExInfos>Расширенная системная информация</systemViewExInfos>
+    <systemViewExInfos>Расширенная информация о системе</systemViewExInfos>
     <yes>Да</yes>
     <no>Нет</no>
     <!-- Subset options for screen / System view -->
@@ -32,39 +32,39 @@
     <systemview.darkened>Затененные</systemview.darkened>
     <systemview.gridName>Сетка изображений</systemview.gridName>
     <systemview.horizontal>Горизонтальная</systemview.horizontal>
-    <systemview.legacy>Наследие</systemview.legacy>
+    <systemview.legacy>Устаревший</systemview.legacy>
     <systemview.transparent>Прозрачный</systemview.transparent>
     <systemview.simple>Обычный</systemview.simple>
     <systemview.vertical>Вертикальный</systemview.vertical>
     <systemview.wheel>Карусель</systemview.wheel>
-    <systemview.textlist>Список текстов</systemview.textlist>
+    <systemview.textlist>Текстовый список</systemview.textlist>
     <!-- Subset option for System view background -->
     <systemBackgroundName>Фон</systemBackgroundName>
     <!-- change default for small screens -->
-    <systembackground.consoles>Видеоигры</systembackground.consoles>
-    <systembackground.miniconsoles>Мини-видеоигры</systembackground.miniconsoles>
-    <systembackground.carboncontrollers>Углеродные элементы управления</systembackground.carboncontrollers>
-    <systembackground.carbonlegacy>Наследие</systembackground.carbonlegacy>
-    <systembackground.simple>Простые</systembackground.simple>
+    <systembackground.consoles>Консоли</systembackground.consoles>
+    <systembackground.miniconsoles>Консоли (уменьшено)</systembackground.miniconsoles>
+    <systembackground.carboncontrollers>Элементы управления Carbon</systembackground.carboncontrollers>
+    <systembackground.carbonlegacy>Устаревший</systembackground.carbonlegacy>
+    <systembackground.simple>Простой</systembackground.simple>
     <systembackground.randomvideo>Случайное видео</systembackground.randomvideo>
     <systembackground.randomfanart>Случайный фанарт</systembackground.randomfanart>
     <systembackground.randomimage>Случайное изображение</systembackground.randomimage>
-    <systembackground.randombox>Случайная игровая коробка</systembackground.randombox>
-    <systembackground.minirandomimage>Мини случайное изображение</systembackground.minirandomimage>
-    <systembackground.minirandombox>Мини случайная игровая коробка</systembackground.minirandombox>
-    <systembackground.minirandomvideo>Мини случайное видео</systembackground.minirandomvideo>
+    <systembackground.randombox>Случайная коробка с игрой</systembackground.randombox>
+    <systembackground.minirandomimage>Случайное изображение (уменьшено)</systembackground.minirandomimage>
+    <systembackground.minirandombox>Случайная коробка с игрой (уменьшено)</systembackground.minirandombox>
+    <systembackground.minirandomvideo>Случайное видео (уменьшено)</systembackground.minirandomvideo>
     <animatedBackground>Фоновые анимации</animatedBackground>
-    <animatedCovers>Случайные коробки</animatedCovers>
+    <animatedCovers>Случайные обложки</animatedCovers>
     <!-- Fix for controller image size -->
     <systemview.simple>простой</systemview.simple>
     <systemview.vertical>вертикальный</systemview.vertical>
     <systemview.wheel>карусель</systemview.wheel>
     <!-- Fix for Legacy option in systemview subset : systemInfo colors have to be restored after applying systembackground subset -->
-    <systemview.legacy>наследие</systemview.legacy>
+    <systemview.legacy>устаревший</systemview.legacy>
     <!-- Subset options for blur effects -->
     <subset.blurfx>Эффекты размытия</subset.blurfx>
     <!-- Subset options for help -->
-    <helpSubsetName>Иконки помощи</helpSubsetName>
+    <helpSubsetName>Иконки справки</helpSubsetName>
     <helpbuttons>Положение кнопок</helpbuttons>
     <xboxbuttons>Кнопки Xbox</xboxbuttons>
     <psxbuttons>Кнопки PlayStation</psxbuttons>
@@ -73,14 +73,14 @@
     <subset.shader>Фильтры</subset.shader>
     <none>Нет</none>
     <scanlines>Линии развертки</scanlines>
-    <crt>Телевизионная трубка</crt>
+    <crt>ЭЛТ</crt>
     <!-- add game info bar -->
     <gameBar>Информационная панель игры</gameBar>
     <!-- Layout for small screens -->
     <optimizesmallscreensSubsetName>Оптимизация для маленьких экранов</optimizesmallscreensSubsetName>
     <!-- Subset options for grid views -->
-    <videoboxesSubsetName>Показывать видео в режиме коробки</videoboxesSubsetName>
-    <zoomboxesSubsetName>Масштабирование боксов</zoomboxesSubsetName>
+    <videoboxesSubsetName>Показывать видео в небольшом окне (боксе)</videoboxesSubsetName>
+    <zoomboxesSubsetName>Масштабирование окна (бокса)</zoomboxesSubsetName>
     <!-- Subset options for Orientantion view -->
     <orientationSubsetName>Ориентация</orientationSubsetName>
     <vertical>Вертикальная</vertical>
@@ -90,13 +90,13 @@
     <animatedInfobar>Анимация в информационной панели</animatedInfobar>
     <!-- Subset options for Tiles view -->
     <glowSubsetName>Выделение с ареолой</glowSubsetName>
-    <roundBorderSubsetName>Закругленные края</roundBorderSubsetName>
+    <roundBorderSubsetName>Скругленные края</roundBorderSubsetName>
     <blinkBorderSubsetName>Мигающие края</blinkBorderSubsetName>
     <videosSubsetName>Видео</videosSubsetName>
     <logosSubsetNamegamecarouseltype>Эскизы</logosSubsetNamegamecarouseltype>
     <!-- Subset options for Carousel content type -->
     <gamecarouseltype>Источник изображения в карусели</gamecarouseltype>
-    <marquee>Маркиза</marquee>
+    <marquee>Логотип</marquee>
     <image>Изображение</image>
     <text>Текст</text>
     <thumbnail>Эскизы</thumbnail>

@@ -106,8 +106,8 @@ Mais jogados : {binding:mostPlayed}
       <text lang="ru">Количество игр : {binding:total}
 Избранное : {binding:favorites}
 Игр сыграно : {binding:gamesPlayed}
-Больше играл : {binding:mostPlayed}
-Последний ход : {binding:lastPlayedDate}</text>
+Часто запускаемое : {binding:mostPlayed}
+Последний запуск : {binding:lastPlayedDate}</text>
       <text lang="uk">Кількість ігор : {binding:total}
 Вибране : {binding:favorites}
 Зіграні ігри : {binding:gamesPlayed}
