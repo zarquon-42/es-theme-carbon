@@ -105,9 +105,9 @@ languages and missing systems (batocera v36): by maioni
   
   <!-- Subset option for System information -->
   <subset name="subsetSystemInfo" displayName="${systemViewInfo}">
-    <include name="none" displayName="${none}">./subsets/noinfo.xml</include>
-    <include name="standard" displayName="${standard}"/>
     <include name="extended" displayName="${extended}" tinyScreen="false">./subsets/extendedinfo.xml</include>
+    <include name="standard" displayName="${standard}"/>
+    <include name="none" displayName="${none}">./subsets/noinfo.xml</include>
   </subset>
   <!-- Subset options for screen -->
   <subset name="systemview" displayName="${systemViewName}">
