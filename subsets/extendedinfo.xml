@@ -103,6 +103,11 @@ Favoritos : {binding:favorites}
 Jogos Jogados : {binding:gamesPlayed}
 Mais jogados : {binding:mostPlayed}
 Última jogada : {binding:lastPlayedDate}</text>
+      <text lang="ro_RO">Număr de jocuri : {binding:total}
+Favorite : {binding:favorites}
+Jocuri jucate : {binding:gamesPlayed}
+Cele mai jucate : {binding:mostPlayed}
+Ultima rulare : {binding:lastPlayedDate}</text>
       <text lang="ru">Количество игр : {binding:total}
 Избранное : {binding:favorites}
 Игр сыграно : {binding:gamesPlayed}
@@ -148,6 +153,7 @@ Mais jogados : {binding:mostPlayed}
       <text lang="pl">Liczba kolekcji : {binding:subSystems}</text>
       <text lang="pt">Número de coleções : {binding:subSystems}</text>
       <text lang="pt_BR">Número de coleções : {binding:subSystems}</text>
+      <text lang="ro_RO">Numărul de colecții : {binding:subSystems}</text>
       <text lang="ru">Количество коллекций : {binding:subSystems}</text>
       <text lang="uk">Кількість колекцій : {binding:subSystems}</text>
       <text lang="zh">收集的数量 : {binding:subSystems}</text>
@@ -171,6 +177,7 @@ Mais jogados : {binding:mostPlayed}
       <text lang="pl">Liczba elementów : {binding:total}</text>
       <text lang="pt">Número de elementos : {binding:total}</text>
       <text lang="pt_BR">Número de elementos : {binding:total}</text>
+      <text lang="ro_RO">Numărul de elemente : {binding:total}</text>
       <text lang="ru">Количество элементов : {binding:total}</text>
       <text lang="uk">Кількість елементів : {binding:total}</text>
       <text lang="zh">元素的数量 : {binding:total}</text>      
