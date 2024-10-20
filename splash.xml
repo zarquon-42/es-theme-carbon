@@ -13,8 +13,8 @@
     <include name="green" displayName="${green}">./subsets/colorsets/green.xml</include>
     <include name="yellow" displayName="${yellow}">./subsets/colorsets/yellow.xml</include>
     <include name="violet" displayName="${violet}">./subsets/colorsets/violet.xml</include>
-    <include name="cyan" displayName="${cyan}>">./subsets/colorsets/cyan.xml</include>
-    <include name="orange" displayName="${orange}>">./subsets/colorsets/orange.xml</include>
+    <include name="cyan" displayName="${cyan}">./subsets/colorsets/cyan.xml</include>
+    <include name="orange" displayName="${orange}">./subsets/colorsets/orange.xml</include>
   </subset>
   <view name="splash">
     <splash name="splash">
