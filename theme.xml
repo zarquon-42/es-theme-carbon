@@ -97,6 +97,7 @@ languages and missing systems (batocera v36): by maioni
     <include name="violet"  displayName="${violet}">./subsets/colorsets/violet.xml</include>
     <include name="orange"  displayName="${orange}">./subsets/colorsets/orange.xml</include>
     <include name="gray" displayName="${gray}">./subsets/colorsets/gray.xml</include>
+    <include name="knulli" displayName="Knulli">./subsets/colorsets/Knulli.xml</include>
   </subset>
 
   <!-- Common views  -->

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <variables>
+    <baseColor>CACA6E</baseColor>
+    <gradientEndColor>52611B</gradientEndColor>
+    <centerFadeColor>CACA6E33</centerFadeColor>
+    <bottomBarColor>CACA6EB0</bottomBarColor>
+    <glowColor>20</glowColor>
+    <systemInfoColor>FDFDF0B0</systemInfoColor>
+    <backgroundColor>121212</backgroundColor>
+    <groupColor>CACA6E</groupColor>
+    <groupSeparatorColor>CACA6E</groupSeparatorColor>
+  </variables>
+</theme>
