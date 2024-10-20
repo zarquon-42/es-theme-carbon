@@ -8,13 +8,13 @@
     <centerFadeColor>8b000050</centerFadeColor>
   </variables>
   <subset name="colorset" displayName="${subset.colorset}">
-    <include name="blue" displayName="${blue}">./art/colors/blue.xml</include>
+    <include name="blue" displayName="${blue}">./subsets/colorsets/blue.xml</include>
     <include name="red" displayName="${red}"/>
-    <include name="green" displayName="${green}">./art/colors/green.xml</include>
-    <include name="yellow" displayName="${yellow}">./art/colors/yellow.xml</include>
-    <include name="violet" displayName="${violet}">./art/colors/violet.xml</include>
-    <include name="cyan" displayName="${cyan}>">./art/colors/cyan.xml</include>
-    <include name="orange" displayName="${orange}>">./art/colors/orange.xml</include>
+    <include name="green" displayName="${green}">./subsets/colorsets/green.xml</include>
+    <include name="yellow" displayName="${yellow}">./subsets/colorsets/yellow.xml</include>
+    <include name="violet" displayName="${violet}">./subsets/colorsets/violet.xml</include>
+    <include name="cyan" displayName="${cyan}>">./subsets/colorsets/cyan.xml</include>
+    <include name="orange" displayName="${orange}>">./subsets/colorsets/orange.xml</include>
   </subset>
   <view name="splash">
     <splash name="splash">
@@ -38,7 +38,7 @@
       <pos>0.5 0.5</pos>
       <origin>0.5 0.5</origin>
       <minSize>1 1</minSize>
-      <path>:/logo.png</path>
+      <path>./logo.png</path>
     </image>
     <text name="label">
       <color>FFFFFFFF</color>
